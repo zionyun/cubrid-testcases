@@ -67,7 +67,7 @@ C1: commit;
 C1: insert into t select id+100000,col from t where id between 3 and 5;
 MC: sleep 1;
 
-C5: insert into t select id+100010,col from t where id between 2 and 4 and (select sleep(4)=0);
+C5: insert into t select id+100010,col from t where id between 2 and 4 and (select sleep(4)=0)<>0;
 
 C1: commit;
 MC: wait until C1 ready;
@@ -77,7 +77,7 @@ C2: insert into t values(1,'aa');
 MC: wait until C2 ready;
 
 /* expected 10 group */
-C6: select avg(id) from t, (select sleep(3)) x where id>0;
+C6: select avg(id) from t where id>0 and (select sleep(3)=0)<>0;
 C3: insert into t values(2,'cc');
 MC: wait until C3 ready;
 
@@ -87,7 +87,7 @@ MC: wait until C2 ready;
 C3: commit;
 MC: wait until C3 ready;
 
-C4: insert into t select id+100020,col from t where id between 4 and 5 and (select sleep(2)=0);
+C4: insert into t select id+100020,col from t where id between 4 and 5 and (select sleep(2)=0)<>0;
 MC: wait until C6 ready;
 
 C4: commit;

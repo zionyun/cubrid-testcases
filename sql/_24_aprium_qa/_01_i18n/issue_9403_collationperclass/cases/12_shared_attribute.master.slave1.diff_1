@@ -1,42 +1,42 @@
-2460c2460
+2559c2559
 <   'tbl12'                         1  'A'                 
 ---
 >   'tbl12'                         1  'AAA'               
-2468c2468
+2567c2567
 <   'tbl12'                         1  'A'                 
 ---
 >   'tbl12'                         1  'AAA'               
-2498,2499c2498,2499
+2597,2598c2597,2598
 <   'tbl12'                         1  'B'                 
 <   'tbl12'                         2  'B'                 
 ---
 >   'tbl12'                         1  'AAA'               
 >   'tbl12'                         2  'AAA'               
-2507,2508c2507,2508
+2606,2607c2606,2607
 <   'tbl12'                         2  'B'                 
 <   'tbl12'                         1  'B'                 
 ---
 >   'tbl12'                         2  'AAA'               
 >   'tbl12'                         1  'AAA'               
-2998c2998
+3115c3115
 <   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 ---
 >   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                
-3813c3813
+3963c3963
 <   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 ---
 >   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                
-4629c4629
+4812c4812
 <   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 ---
 >   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                
-5447,5448c5447,5448
+5663,5664c5663,5664
 <   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 <   'db_attribute'        's1'                  'tbl121'              'INSTANCE'                      1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 ---
 >   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                
 >   'db_attribute'        's1'                  'tbl121'              'INSTANCE'                      1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                
-6269c6269
+6518c6518
 <   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'B'                   'YES'                 NULL                
 ---
 >   'db_attribute'        's1'                  'tbl12'               'SHARED'                        1  NULL                  NULL                  'STRING'               1073741823            0  'utf8'                'utf8_en_cs'          NULL                  'AAA'                 'YES'                 NULL                

@@ -7,12 +7,16 @@
 ===================================================
 0
 ===================================================
+0
+===================================================
 Table    Non_unique    Key_name    Seq_in_index    Column_name    Collation    Cardinality    Sub_part    Packed    Null    Index_type    Func    Comment    Visible    
 dba.t1     1     i_t1_a2a     1     null     A     1     null     null     YES     BTREE      lower([dba.t1].[a])     null     YES     
 dba.t1     1     i_t1_a2b     1     b     A     1     null     null     YES     BTREE     null     null     YES     
 
 Query stmt:
 show index from [dba.t?] [dba.t?]
+===================================================
+0
 ===================================================
 0
 ===================================================
@@ -34,7 +38,7 @@ iscan
     index: i_t?_a?a term[?]
     cost:  ? card ?
 Query stmt:
-select count(*) from t? t? where  lower(t?.a)> cast('?' as varchar)
+select count(*) from t? t? where ( lower(t?.a)> ?:? )
 ===================================================
 count(*)    
 1     
@@ -70,7 +74,7 @@ iscan
     index: i_t?_a?a term[?]
     cost:  ? card ?
 Query stmt:
-select count(*) from t? t? where  lower(t?.a)> cast('?' as varchar)
+select count(*) from t? t? where ( lower(t?.a)> ?:? )
 ===================================================
 count(*)    
 1     
@@ -81,7 +85,7 @@ iscan
     index: i_t?_a?a term[?]
     cost:  ? card ?
 Query stmt:
-select count(*) from t? t? where  lower(t?.a)> cast('?' as varchar)
+select count(*) from t? t? where ( lower(t?.a)> ?:? )
 ===================================================
 0
 ===================================================

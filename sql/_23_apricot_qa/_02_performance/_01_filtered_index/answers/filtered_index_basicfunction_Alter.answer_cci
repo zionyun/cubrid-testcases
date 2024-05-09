@@ -7,11 +7,15 @@
 ===================================================
 0
 ===================================================
+0
+===================================================
 Table    Non_unique    Key_name    Seq_in_index    Column_name    Collation    Cardinality    Sub_part    Packed    Null    Index_type    Func    Comment    Visible    
 dba.blogtopic     1     my_filter_index     1     topicid     A     0     null     null     NO     BTREE     null     null     YES     
 
 Query stmt:
 show index from [dba.blogtopic] [dba.blogtopic]
+===================================================
+0
 ===================================================
 0
 ===================================================
@@ -23,6 +27,8 @@ show index from [dba.blogtopic] [dba.blogtopic]
 ===================================================
 0
 ===================================================
+0
+===================================================
 Table    Non_unique    Key_name    Seq_in_index    Column_name    Collation    Cardinality    Sub_part    Packed    Null    Index_type    Func    Comment    Visible    
 dba.blogtopic     1     my_filter_index     1     topicid     A     0     null     null     NO     BTREE     null     null     YES     
 
@@ -35,9 +41,13 @@ Error:-493
 ===================================================
 Error:-493
 ===================================================
-Error:-493
+Error:-273
 ===================================================
 Error:-493
+===================================================
+Error:-273
+===================================================
+0
 ===================================================
 Table    Non_unique    Key_name    Seq_in_index    Column_name    Collation    Cardinality    Sub_part    Packed    Null    Index_type    Func    Comment    Visible    
 
@@ -45,6 +55,8 @@ Query stmt:
 show index from [dba.blogtopic] [dba.blogtopic]
 ===================================================
 Error:-709
+===================================================
+0
 ===================================================
 0
 ===================================================
@@ -112,7 +124,18 @@ iscan
 Query stmt:
 select count(blogtopic.topicId) from blogtopic blogtopic where (blogtopic.topicId> ?:? ) using index blogtopic.my_filter_index(+)
 ===================================================
-Error:-493
+0
+===================================================
+count(topicId)    
+1     
+
+Query plan:
+iscan
+    class: blogtopic node[?]
+    index: my_filter_index term[?] (covers)
+    cost:  ? card ?
+Query stmt:
+select count(blogtopic.topicId) from blogtopic blogtopic where (blogtopic.topicId> ?:? ) using index blogtopic.my_filter_index(+)
 ===================================================
 0
 ===================================================
@@ -156,7 +179,7 @@ select count(blogtopic.topicId) from blogtopic blogtopic where (blogtopic.topicI
 ===================================================
 0
 ===================================================
-Error:-494
+Error:-493
 ===================================================
 0
 ===================================================

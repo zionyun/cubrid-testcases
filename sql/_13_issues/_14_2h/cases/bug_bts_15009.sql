@@ -1,3 +1,7 @@
+-- This issue also verifies CBRD-24638.
+-- Column default value problem when altering column type.
+-- Altering default value column is allowed.
+
 drop table if exists stu;
 create table stu(id int,addr varchar(200)) comment 'this table store the student information';
 show full columns from stu;
@@ -73,7 +77,7 @@ create table t(i int comment 'auto_increment');
 show full columns from t;
 create unique index idx1 on t(i) comment 'uuuu';
 show index from t;
-alter index idx1 on t(i) comment 'aaa' rebuild;
+alter index idx1 on t comment 'aaa' rebuild;
 show index from t;
 alter table t change i id int;
 show full columns from t;
@@ -96,13 +100,16 @@ show full columns from t;
 alter table t change i i int  not null comment 'auto increment';
 show full columns from t;
 create unique index idx1 on t(i) comment 'uuuu';
+update statistics on t;
 show index from t;
-alter index idx1 on t(i) comment 'aaa' rebuild;
+alter index idx1 on t comment 'aaa' rebuild;
+update statistics on t;
 show index from t;
 alter table t change i id int;
 show full columns from t;
 alter table t modify id  varchar(100) primary key  comment 'dddd';
 show full columns from t;
+update statistics on t;
 show index from t;
 drop t;
 
@@ -116,10 +123,10 @@ show full columns from t;
 alter table t modify i  varchar(100) primary key  comment 'dddd';
 show full columns from t;
 show index from t;
-alter index pk_t_i  on t(i) rebuild;
+alter index pk_t_i  on t rebuild;
 show full columns from t;
 show index from t;
-alter index pk_t_i  on t(i) comment 'abcdefghijklmn' rebuild;
+alter index pk_t_i  on t comment 'abcdefghijklmn' rebuild;
 show full columns from t;
 show index from t;
 drop t;

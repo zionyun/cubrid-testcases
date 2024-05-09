@@ -34,7 +34,7 @@ trace
           "table": "dba.cte_Z?EqZHVEA"
         }
       },
-      "rewritten query": "with cte_Z?EqZHVEA([avg([__t?].a)], [max([__t?].b)]) as (select avg([__t?].a), max([__t?].b) from [dba.t?] [__t?] group by [__t?].d)select [dba.cte_Z?EqZHVEA].[avg([__t?].a)], [dba.cte_Z?EqZHVEA].[max([__t?].b)] from  [dba.cte_Z?EqZHVEA] order by ?"
+      "rewritten query": "with cte_Z?EqZHVEA([avg([__t?].a)], [max([__t?].b)]) as (select avg([__t?].a), max([__t?].b) from [dba.t?] [__t?] group by [__t?].d)select [dba.cte_Z?EqZHVEA].[avg([__t?].a)], [dba.cte_Z?EqZHVEA].[max([__t?].b)] from [dba.cte_Z?EqZHVEA] [dba.cte_Z?EqZHVEA] order by ?"
     }
   ],
   "Trace Statistics": {
@@ -103,12 +103,12 @@ avg([__t1].a)    max([__t1].b)
 trace    
 
 Trace Statistics:
-  SELECT (time: ?, fetch: ?, ioread: ?)
+  SELECT (time: ?, fetch: ?, fetch_time: ?, ioread: ?)
     SCAN (temp time: ?, fetch: ?, ioread: ?, readrows: ?, rows: ?)
     ORDERBY (time: ?, sort: true, page: ?, ioread: ?)
     SUBQUERY (uncorrelated)
       CTE (non_recursive_part)
-        SELECT (time: ?, fetch: ?, ioread: ?)
+        SELECT (time: ?, fetch: ?, fetch_time: ?, ioread: ?)
           SCAN (table: dba.t?), (heap time: ?, fetch: ?, ioread: ?, readrows: ?, rows: ?)
           GROUPBY (time: ?, hash: true, sort: true, page: ?, ioread: ?, rows: ?)
      

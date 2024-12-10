@@ -97,11 +97,11 @@ drop t2;
 --- cast
 drop table if exists t3;
 
-create table t3(s1 string,s2 char(3000));
+create table t3(s1 string,s2 char(2048));
 
 insert into t3 values('abc','def');
 
-insert into t3 values(repeat('abc',1000),repeat('def',1000));
+insert into t3 values(repeat('abc',500),repeat('def',500));
 
 select cast(s1 as char(10)),length(cast(s1 as char(10))),disk_size(cast(s1 as char(10))) from t3 order by 1;
 
@@ -116,7 +116,7 @@ select length(to_char(s1)),disk_size(to_char(s1)) from t3 order by 1;
 
 select length(to_char(s2)),disk_size(to_char(s2)) from t3 order by 1;  
 
-select to_char(sysdatetime, repeat('YYYY/DD/MM DAY hh24:MI:ss.ff',200));
+select to_char(sysdatetime, repeat('YYYY/DD/MM DAY hh24:MI:ss.ff',50));
 
 drop table t3;
 

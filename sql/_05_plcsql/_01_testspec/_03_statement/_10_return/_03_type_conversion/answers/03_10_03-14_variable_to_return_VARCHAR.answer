@@ -32,17 +32,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR DATETIMELTZ  ;
 begin
 VAR := param_va...'
-Unsupported argument type 'datetimeltz' of the stored procedure create or replace function t_DATETIMELTZ_VARCHAR(variables_t...
+Unsupported argument type 'datetimeltz' of the stored procedure create or replace function [dba.t_DATETIMELTZ_VARCHAR](varia...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATETIMELTZ_VARCHAR('DATETIMELTZ', 'VARCHAR', dat...'
-Function t_DATETIMELTZ_VARCHAR is undefined or given wrong number of parameter. select t_DATETIMELTZ_VARCHAR('DATETIMELTZ', 'VARCHAR', datet...
+Function t_datetimeltz_varchar is undefined or given wrong number of parameter. select t_DATETIMELTZ_VARCHAR('DATETIMELTZ', 'VARCHAR', datet...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATETIMELTZ_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_datetimeltz_varchar' does not exist.
 
 ===================================================
     
@@ -56,17 +56,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR DATETIMETZ  ;
 begin
 VAR := param_val...'
-Unsupported argument type 'datetimetz' of the stored procedure create or replace function t_DATETIMETZ_VARCHAR(variables_ty...
+Unsupported argument type 'datetimetz' of the stored procedure create or replace function [dba.t_DATETIMETZ_VARCHAR](variab...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATETIMETZ_VARCHAR('DATETIMETZ', 'VARCHAR', datet...'
-Function t_DATETIMETZ_VARCHAR is undefined or given wrong number of parameter. select t_DATETIMETZ_VARCHAR('DATETIMETZ', 'VARCHAR', datetim...
+Function t_datetimetz_varchar is undefined or given wrong number of parameter. select t_DATETIMETZ_VARCHAR('DATETIMETZ', 'VARCHAR', datetim...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATETIMETZ_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_datetimetz_varchar' does not exist.
 
 ===================================================
     
@@ -137,17 +137,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR TIMESTAMPLTZ  ;
 begin
 VAR := param_v...'
-Unsupported argument type 'timestampltz' of the stored procedure create or replace function t_TIMESTAMPLTZ_VARCHAR(variables_...
+Unsupported argument type 'timestampltz' of the stored procedure create or replace function [dba.t_TIMESTAMPLTZ_VARCHAR](vari...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIMESTAMPLTZ_VARCHAR('TIMESTAMPLTZ', 'VARCHAR', t...'
-Function t_TIMESTAMPLTZ_VARCHAR is undefined or given wrong number of parameter. select t_TIMESTAMPLTZ_VARCHAR('TIMESTAMPLTZ', 'VARCHAR', tim...
+Function t_timestampltz_varchar is undefined or given wrong number of parameter. select t_TIMESTAMPLTZ_VARCHAR('TIMESTAMPLTZ', 'VARCHAR', tim...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIMESTAMPLTZ_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_timestampltz_varchar' does not exist.
 
 ===================================================
     
@@ -161,17 +161,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR TIMESTAMPTZ  ;
 begin
 VAR := param_va...'
-Unsupported argument type 'timestamptz' of the stored procedure create or replace function t_TIMESTAMPTZ_VARCHAR(variables_t...
+Unsupported argument type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMPTZ_VARCHAR](varia...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIMESTAMPTZ_VARCHAR('TIMESTAMPTZ', 'VARCHAR', tim...'
-Function t_TIMESTAMPTZ_VARCHAR is undefined or given wrong number of parameter. select t_TIMESTAMPTZ_VARCHAR('TIMESTAMPTZ', 'VARCHAR', times...
+Function t_timestamptz_varchar is undefined or given wrong number of parameter. select t_TIMESTAMPTZ_VARCHAR('TIMESTAMPTZ', 'VARCHAR', times...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIMESTAMPTZ_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_timestamptz_varchar' does not exist.
 
 ===================================================
     
@@ -299,17 +299,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR BIT(8)  ;
 begin
 VAR := param_value ;...'
-Unsupported argument type 'bit' of the stored procedure create or replace function t_BIT_VARCHAR(variables_type  var...
+Unsupported argument type 'bit' of the stored procedure create or replace function [dba.t_BIT_VARCHAR](variables_typ...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BIT_VARCHAR('BIT(8)', 'VARCHAR', 0xaa ) ) ; '
-Function t_BIT_VARCHAR is undefined or given wrong number of parameter. select t_BIT_VARCHAR('BIT(8)', 'VARCHAR', X'aa'),  typeof(t_...
+Function t_bit_varchar is undefined or given wrong number of parameter. select t_BIT_VARCHAR('BIT(8)', 'VARCHAR', X'aa'),  typeof(t_...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BIT_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_bit_varchar' does not exist.
 
 ===================================================
     
@@ -323,17 +323,17 @@ Semantic: before '  ) RETURN VARCHAR IS
 VAR BIT VARYING  ;
 begin
 VAR := param_va...'
-dba.BITVARYING is not defined. create or replace function t_BITVARYING_VARCHAR(variables_ty...
+dba.BITVARYING is not defined. create or replace function [dba.t_BITVARYING_VARCHAR](variab...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BITVARYING_VARCHAR('BIT VARYING', 'VARCHAR', 0xaa...'
-Function t_BITVARYING_VARCHAR is undefined or given wrong number of parameter. select t_BITVARYING_VARCHAR('BIT VARYING', 'VARCHAR', X'aa')...
+Function t_bitvarying_varchar is undefined or given wrong number of parameter. select t_BITVARYING_VARCHAR('BIT VARYING', 'VARCHAR', X'aa')...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BITVARYING_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_bitvarying_varchar' does not exist.
 
 ===================================================
     
@@ -386,11 +386,11 @@ Stored procedure compile error: no viable alternative at input 'VAR SET'
 Error:-494
 Semantic: before ' ,
 typeof( t_SET_VARCHAR('SET', 'VARCHAR', {'c','c','c','b','b...'
-Function t_SET_VARCHAR is undefined or given wrong number of parameter. select t_SET_VARCHAR('SET', 'VARCHAR'),  typeof(t_SET_VARCHA...
+Function t_set_varchar is undefined or given wrong number of parameter. select t_SET_VARCHAR('SET', 'VARCHAR'),  typeof(t_SET_VARCHA...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_SET_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_set_varchar' does not exist.
 
 ===================================================
     
@@ -407,11 +407,11 @@ Stored procedure compile error: no viable alternative at input 'VAR MULTISET'
 Error:-494
 Semantic: before ' ,
 typeof( t_MULTISET_VARCHAR('MULTISET', 'VARCHAR', {'c','c',...'
-Function t_MULTISET_VARCHAR is undefined or given wrong number of parameter. select t_MULTISET_VARCHAR('MULTISET', 'VARCHAR'),  typeof(t_...
+Function t_multiset_varchar is undefined or given wrong number of parameter. select t_MULTISET_VARCHAR('MULTISET', 'VARCHAR'),  typeof(t_...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_MULTISET_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_multiset_varchar' does not exist.
 
 ===================================================
     
@@ -428,11 +428,11 @@ Stored procedure compile error: no viable alternative at input 'VAR LIST'
 Error:-494
 Semantic: before ' ,
 typeof( t_LIST_VARCHAR('LIST', 'VARCHAR', {'c','c','c','b',...'
-Function t_LIST_VARCHAR is undefined or given wrong number of parameter. select t_LIST_VARCHAR('LIST', 'VARCHAR'),  typeof(t_LIST_VAR...
+Function t_list_varchar is undefined or given wrong number of parameter. select t_LIST_VARCHAR('LIST', 'VARCHAR'),  typeof(t_LIST_VAR...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_LIST_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_list_varchar' does not exist.
 
 ===================================================
     
@@ -449,11 +449,11 @@ Syntax: invalid create function
 Error:-494
 Semantic: before ' ,
 typeof( t_ENUM_VARCHAR('ENUM', 'VARCHAR', 'yellow' ) ) ; '
-Function t_ENUM_VARCHAR is undefined or given wrong number of parameter. select t_ENUM_VARCHAR('ENUM', 'VARCHAR', 'yellow'),  typeof(...
+Function t_enum_varchar is undefined or given wrong number of parameter. select t_ENUM_VARCHAR('ENUM', 'VARCHAR', 'yellow'),  typeof(...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_ENUM_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_enum_varchar' does not exist.
 
 ===================================================
     
@@ -468,17 +468,17 @@ VAR BLOB  ;
 begin
 VAR := param_value ;
 d...'
-Unsupported argument type 'blob' of the stored procedure create or replace function t_BLOB_VARCHAR(variables_type  va...
+Unsupported argument type 'blob' of the stored procedure create or replace function [dba.t_BLOB_VARCHAR](variables_ty...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BLOB_VARCHAR('BLOB', 'VARCHAR', BIT_TO_BLOB(X'000...'
-Function t_BLOB_VARCHAR is undefined or given wrong number of parameter. select t_BLOB_VARCHAR('BLOB', 'VARCHAR',  bit_to_blob(X'0000...
+Function t_blob_varchar is undefined or given wrong number of parameter. select t_BLOB_VARCHAR('BLOB', 'VARCHAR',  bit_to_blob(X'0000...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BLOB_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_blob_varchar' does not exist.
 
 ===================================================
     
@@ -493,17 +493,17 @@ VAR CLOB  ;
 begin
 VAR := param_value ;
 d...'
-Unsupported argument type 'clob' of the stored procedure create or replace function t_CLOB_VARCHAR(variables_type  va...
+Unsupported argument type 'clob' of the stored procedure create or replace function [dba.t_CLOB_VARCHAR](variables_ty...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_CLOB_VARCHAR('CLOB', 'VARCHAR', CHAR_TO_CLOB('Thi...'
-Function t_CLOB_VARCHAR is undefined or given wrong number of parameter. select t_CLOB_VARCHAR('CLOB', 'VARCHAR',  char_to_clob('This...
+Function t_clob_varchar is undefined or given wrong number of parameter. select t_CLOB_VARCHAR('CLOB', 'VARCHAR',  char_to_clob('This...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_CLOB_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_clob_varchar' does not exist.
 
 ===================================================
     
@@ -518,17 +518,17 @@ VAR JSON  ;
 begin
 VAR := param_value ;
 d...'
-Unsupported argument type 'json' of the stored procedure create or replace function t_JSON_VARCHAR(variables_type  va...
+Unsupported argument type 'json' of the stored procedure create or replace function [dba.t_JSON_VARCHAR](variables_ty...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_JSON_VARCHAR('JSON', 'VARCHAR', '{"a":1}' ) ) ; '
-Function t_JSON_VARCHAR is undefined or given wrong number of parameter. select t_JSON_VARCHAR('JSON', 'VARCHAR', '{"a":1}'),  typeof...
+Function t_json_varchar is undefined or given wrong number of parameter. select t_JSON_VARCHAR('JSON', 'VARCHAR', '{"a":1}'),  typeof...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_JSON_VARCHAR' does not exist.
+Stored procedure/function 'dba.t_json_varchar' does not exist.
 
 ===================================================
 0

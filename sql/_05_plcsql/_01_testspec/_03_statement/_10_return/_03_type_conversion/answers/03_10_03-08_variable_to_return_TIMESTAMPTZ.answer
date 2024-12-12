@@ -9,17 +9,17 @@ null
 t_DATETIME_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_DATETIME_TIMESTAMPTZ(variables_...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_DATETIME_TIMESTAMPTZ](vari...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATETIME_TIMESTAMPTZ('DATETIME', 'TIMESTAMPTZ', D...'
-Function t_DATETIME_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_DATETIME_TIMESTAMPTZ('DATETIME', 'TIMESTAMPTZ', dat...
+Function t_datetime_timestamptz is undefined or given wrong number of parameter. select t_DATETIME_TIMESTAMPTZ('DATETIME', 'TIMESTAMPTZ', dat...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATETIME_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_datetime_timestamptz' does not exist.
 
 ===================================================
     
@@ -33,17 +33,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR DATETIMELTZ  ;
 begin
 VAR := para...'
-Unsupported argument type 'datetimeltz' of the stored procedure create or replace function t_DATETIMELTZ_TIMESTAMPTZ(variabl...
+Unsupported argument type 'datetimeltz' of the stored procedure create or replace function [dba.t_DATETIMELTZ_TIMESTAMPTZ](v...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATETIMELTZ_TIMESTAMPTZ('DATETIMELTZ', 'TIMESTAMP...'
-Function t_DATETIMELTZ_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_DATETIMELTZ_TIMESTAMPTZ('DATETIMELTZ', 'TIMESTAMPTZ...
+Function t_datetimeltz_timestamptz is undefined or given wrong number of parameter. select t_DATETIMELTZ_TIMESTAMPTZ('DATETIMELTZ', 'TIMESTAMPTZ...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATETIMELTZ_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_datetimeltz_timestamptz' does not exist.
 
 ===================================================
     
@@ -57,17 +57,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR DATETIMETZ  ;
 begin
 VAR := param...'
-Unsupported argument type 'datetimetz' of the stored procedure create or replace function t_DATETIMETZ_TIMESTAMPTZ(variable...
+Unsupported argument type 'datetimetz' of the stored procedure create or replace function [dba.t_DATETIMETZ_TIMESTAMPTZ](va...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATETIMETZ_TIMESTAMPTZ('DATETIMETZ', 'TIMESTAMPTZ...'
-Function t_DATETIMETZ_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_DATETIMETZ_TIMESTAMPTZ('DATETIMETZ', 'TIMESTAMPTZ',...
+Function t_datetimetz_timestamptz is undefined or given wrong number of parameter. select t_DATETIMETZ_TIMESTAMPTZ('DATETIMETZ', 'TIMESTAMPTZ',...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATETIMETZ_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_datetimetz_timestamptz' does not exist.
 
 ===================================================
     
@@ -77,17 +77,17 @@ null
 t_DATE_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_DATE_TIMESTAMPTZ(variables_type...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_DATE_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DATE_TIMESTAMPTZ('DATE', 'TIMESTAMPTZ', DATE'2008...'
-Function t_DATE_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_DATE_TIMESTAMPTZ('DATE', 'TIMESTAMPTZ', date '2008-...
+Function t_date_timestamptz is undefined or given wrong number of parameter. select t_DATE_TIMESTAMPTZ('DATE', 'TIMESTAMPTZ', date '2008-...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DATE_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_date_timestamptz' does not exist.
 
 ===================================================
     
@@ -97,17 +97,17 @@ null
 t_TIME_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_TIME_TIMESTAMPTZ(variables_type...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_TIME_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIME_TIMESTAMPTZ('TIME', 'TIMESTAMPTZ', TIME'13:1...'
-Function t_TIME_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_TIME_TIMESTAMPTZ('TIME', 'TIMESTAMPTZ', time '13:15...
+Function t_time_timestamptz is undefined or given wrong number of parameter. select t_TIME_TIMESTAMPTZ('TIME', 'TIMESTAMPTZ', time '13:15...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIME_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_time_timestamptz' does not exist.
 
 ===================================================
     
@@ -117,17 +117,17 @@ null
 t_TIMESTAMP_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_TIMESTAMP_TIMESTAMPTZ(variables...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMP_TIMESTAMPTZ](var...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIMESTAMP_TIMESTAMPTZ('TIMESTAMP', 'TIMESTAMPTZ',...'
-Function t_TIMESTAMP_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_TIMESTAMP_TIMESTAMPTZ('TIMESTAMP', 'TIMESTAMPTZ', t...
+Function t_timestamp_timestamptz is undefined or given wrong number of parameter. select t_TIMESTAMP_TIMESTAMPTZ('TIMESTAMP', 'TIMESTAMPTZ', t...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIMESTAMP_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_timestamp_timestamptz' does not exist.
 
 ===================================================
     
@@ -141,17 +141,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR TIMESTAMPLTZ  ;
 begin
 VAR := par...'
-Unsupported argument type 'timestampltz' of the stored procedure create or replace function t_TIMESTAMPLTZ_TIMESTAMPTZ(variab...
+Unsupported argument type 'timestampltz' of the stored procedure create or replace function [dba.t_TIMESTAMPLTZ_TIMESTAMPTZ](...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIMESTAMPLTZ_TIMESTAMPTZ('TIMESTAMPLTZ', 'TIMESTA...'
-Function t_TIMESTAMPLTZ_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_TIMESTAMPLTZ_TIMESTAMPTZ('TIMESTAMPLTZ', 'TIMESTAMP...
+Function t_timestampltz_timestamptz is undefined or given wrong number of parameter. select t_TIMESTAMPLTZ_TIMESTAMPTZ('TIMESTAMPLTZ', 'TIMESTAMP...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIMESTAMPLTZ_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_timestampltz_timestamptz' does not exist.
 
 ===================================================
     
@@ -165,17 +165,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR TIMESTAMPTZ  ;
 begin
 VAR := para...'
-Unsupported argument type 'timestamptz' of the stored procedure create or replace function t_TIMESTAMPTZ_TIMESTAMPTZ(variabl...
+Unsupported argument type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMPTZ_TIMESTAMPTZ](v...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_TIMESTAMPTZ_TIMESTAMPTZ('TIMESTAMPTZ', 'TIMESTAMP...'
-Function t_TIMESTAMPTZ_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_TIMESTAMPTZ_TIMESTAMPTZ('TIMESTAMPTZ', 'TIMESTAMPTZ...
+Function t_timestamptz_timestamptz is undefined or given wrong number of parameter. select t_TIMESTAMPTZ_TIMESTAMPTZ('TIMESTAMPTZ', 'TIMESTAMPTZ...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_TIMESTAMPTZ_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_timestamptz_timestamptz' does not exist.
 
 ===================================================
     
@@ -185,17 +185,17 @@ null
 t_DOUBLE_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_DOUBLE_TIMESTAMPTZ(variables_ty...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_DOUBLE_TIMESTAMPTZ](variab...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_DOUBLE_TIMESTAMPTZ('DOUBLE', 'TIMESTAMPTZ', cast(...'
-Function t_DOUBLE_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_DOUBLE_TIMESTAMPTZ('DOUBLE', 'TIMESTAMPTZ',  cast(1...
+Function t_double_timestamptz is undefined or given wrong number of parameter. select t_DOUBLE_TIMESTAMPTZ('DOUBLE', 'TIMESTAMPTZ',  cast(1...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_DOUBLE_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_double_timestamptz' does not exist.
 
 ===================================================
     
@@ -205,17 +205,17 @@ null
 t_FLOAT_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_FLOAT_TIMESTAMPTZ(variables_typ...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_FLOAT_TIMESTAMPTZ](variabl...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_FLOAT_TIMESTAMPTZ('FLOAT', 'TIMESTAMPTZ', cast( 1...'
-Function t_FLOAT_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_FLOAT_TIMESTAMPTZ('FLOAT', 'TIMESTAMPTZ',  cast(167...
+Function t_float_timestamptz is undefined or given wrong number of parameter. select t_FLOAT_TIMESTAMPTZ('FLOAT', 'TIMESTAMPTZ',  cast(167...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_FLOAT_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_float_timestamptz' does not exist.
 
 ===================================================
     
@@ -225,17 +225,17 @@ null
 t_NUMERIC(8,4)_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_NUMERIC_TIMESTAMPTZ(variables_t...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_NUMERIC_TIMESTAMPTZ](varia...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_NUMERIC_TIMESTAMPTZ('NUMERIC(8,4)', 'TIMESTAMPTZ'...'
-Function t_NUMERIC_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_NUMERIC_TIMESTAMPTZ('NUMERIC(8,4)', 'TIMESTAMPTZ', ...
+Function t_numeric_timestamptz is undefined or given wrong number of parameter. select t_NUMERIC_TIMESTAMPTZ('NUMERIC(8,4)', 'TIMESTAMPTZ', ...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_NUMERIC_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_numeric_timestamptz' does not exist.
 
 ===================================================
     
@@ -245,17 +245,17 @@ null
 t_BIGINT_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_BIGINT_TIMESTAMPTZ(variables_ty...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_BIGINT_TIMESTAMPTZ](variab...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BIGINT_TIMESTAMPTZ('BIGINT', 'TIMESTAMPTZ', cast(...'
-Function t_BIGINT_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_BIGINT_TIMESTAMPTZ('BIGINT', 'TIMESTAMPTZ',  cast(3...
+Function t_bigint_timestamptz is undefined or given wrong number of parameter. select t_BIGINT_TIMESTAMPTZ('BIGINT', 'TIMESTAMPTZ',  cast(3...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BIGINT_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_bigint_timestamptz' does not exist.
 
 ===================================================
     
@@ -265,17 +265,17 @@ null
 t_INT_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_INT_TIMESTAMPTZ(variables_type ...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_INT_TIMESTAMPTZ](variables...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_INT_TIMESTAMPTZ('INT', 'TIMESTAMPTZ', cast( 78234...'
-Function t_INT_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_INT_TIMESTAMPTZ('INT', 'TIMESTAMPTZ',  cast(782346 ...
+Function t_int_timestamptz is undefined or given wrong number of parameter. select t_INT_TIMESTAMPTZ('INT', 'TIMESTAMPTZ',  cast(782346 ...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_INT_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_int_timestamptz' does not exist.
 
 ===================================================
     
@@ -285,17 +285,17 @@ null
 t_SHORT_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_SHORT_TIMESTAMPTZ(variables_typ...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_SHORT_TIMESTAMPTZ](variabl...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_SHORT_TIMESTAMPTZ('SHORT', 'TIMESTAMPTZ', cast( 8...'
-Function t_SHORT_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_SHORT_TIMESTAMPTZ('SHORT', 'TIMESTAMPTZ',  cast(893...
+Function t_short_timestamptz is undefined or given wrong number of parameter. select t_SHORT_TIMESTAMPTZ('SHORT', 'TIMESTAMPTZ',  cast(893...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_SHORT_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_short_timestamptz' does not exist.
 
 ===================================================
     
@@ -309,17 +309,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR BIT(8)  ;
 begin
 VAR := param_val...'
-Unsupported argument type 'bit' of the stored procedure create or replace function t_BIT_TIMESTAMPTZ(variables_type ...
+Unsupported argument type 'bit' of the stored procedure create or replace function [dba.t_BIT_TIMESTAMPTZ](variables...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BIT_TIMESTAMPTZ('BIT(8)', 'TIMESTAMPTZ', 0xaa ) ) ; '
-Function t_BIT_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_BIT_TIMESTAMPTZ('BIT(8)', 'TIMESTAMPTZ', X'aa'),  t...
+Function t_bit_timestamptz is undefined or given wrong number of parameter. select t_BIT_TIMESTAMPTZ('BIT(8)', 'TIMESTAMPTZ', X'aa'),  t...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BIT_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_bit_timestamptz' does not exist.
 
 ===================================================
     
@@ -333,17 +333,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR BIT VARYING  ;
 begin
 VAR := para...'
-dba.BITVARYING is not defined. create or replace function t_BITVARYING_TIMESTAMPTZ(variable...
+dba.BITVARYING is not defined. create or replace function [dba.t_BITVARYING_TIMESTAMPTZ](va...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BITVARYING_TIMESTAMPTZ('BIT VARYING', 'TIMESTAMPT...'
-Function t_BITVARYING_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_BITVARYING_TIMESTAMPTZ('BIT VARYING', 'TIMESTAMPTZ'...
+Function t_bitvarying_timestamptz is undefined or given wrong number of parameter. select t_BITVARYING_TIMESTAMPTZ('BIT VARYING', 'TIMESTAMPTZ'...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BITVARYING_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_bitvarying_timestamptz' does not exist.
 
 ===================================================
     
@@ -353,17 +353,17 @@ null
 t_CHAR_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_CHAR_TIMESTAMPTZ(variables_type...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_CHAR_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_CHAR_TIMESTAMPTZ('CHAR', 'TIMESTAMPTZ', cast( '09...'
-Function t_CHAR_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_CHAR_TIMESTAMPTZ('CHAR', 'TIMESTAMPTZ',  cast('09/0...
+Function t_char_timestamptz is undefined or given wrong number of parameter. select t_CHAR_TIMESTAMPTZ('CHAR', 'TIMESTAMPTZ',  cast('09/0...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_CHAR_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_char_timestamptz' does not exist.
 
 ===================================================
     
@@ -373,17 +373,17 @@ null
 t_VARCHAR_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_VARCHAR_TIMESTAMPTZ(variables_t...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_VARCHAR_TIMESTAMPTZ](varia...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_VARCHAR_TIMESTAMPTZ('VARCHAR', 'TIMESTAMPTZ', cas...'
-Function t_VARCHAR_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_VARCHAR_TIMESTAMPTZ('VARCHAR', 'TIMESTAMPTZ',  cast...
+Function t_varchar_timestamptz is undefined or given wrong number of parameter. select t_VARCHAR_TIMESTAMPTZ('VARCHAR', 'TIMESTAMPTZ',  cast...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_VARCHAR_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_varchar_timestamptz' does not exist.
 
 ===================================================
     
@@ -393,17 +393,17 @@ null
 t_SET_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_SET_TIMESTAMPTZ(variables_type ...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_SET_TIMESTAMPTZ](variables...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_SET_TIMESTAMPTZ('SET', 'TIMESTAMPTZ', {'c','c','c...'
-Function t_SET_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_SET_TIMESTAMPTZ('SET', 'TIMESTAMPTZ'),  typeof(t_SE...
+Function t_set_timestamptz is undefined or given wrong number of parameter. select t_SET_TIMESTAMPTZ('SET', 'TIMESTAMPTZ'),  typeof(t_SE...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_SET_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_set_timestamptz' does not exist.
 
 ===================================================
     
@@ -413,17 +413,17 @@ null
 t_MULTISET_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_MULTISET_TIMESTAMPTZ(variables_...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_MULTISET_TIMESTAMPTZ](vari...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_MULTISET_TIMESTAMPTZ('MULTISET', 'TIMESTAMPTZ', {...'
-Function t_MULTISET_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_MULTISET_TIMESTAMPTZ('MULTISET', 'TIMESTAMPTZ'),  t...
+Function t_multiset_timestamptz is undefined or given wrong number of parameter. select t_MULTISET_TIMESTAMPTZ('MULTISET', 'TIMESTAMPTZ'),  t...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_MULTISET_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_multiset_timestamptz' does not exist.
 
 ===================================================
     
@@ -433,17 +433,17 @@ null
 t_LIST_TIMESTAMPTZ. This scenario is a failure.
 ===================================================
 Error:-494
-Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function t_LIST_TIMESTAMPTZ(variables_type...
+Semantic: Unsupported return type 'timestamptz' of the stored procedure create or replace function [dba.t_LIST_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_LIST_TIMESTAMPTZ('LIST', 'TIMESTAMPTZ', {'c','c',...'
-Function t_LIST_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_LIST_TIMESTAMPTZ('LIST', 'TIMESTAMPTZ'),  typeof(t_...
+Function t_list_timestamptz is undefined or given wrong number of parameter. select t_LIST_TIMESTAMPTZ('LIST', 'TIMESTAMPTZ'),  typeof(t_...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_LIST_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_list_timestamptz' does not exist.
 
 ===================================================
     
@@ -460,11 +460,11 @@ Syntax: invalid create function
 Error:-494
 Semantic: before ' ,
 typeof( t_ENUM_TIMESTAMPTZ('ENUM', 'TIMESTAMPTZ', 'yellow' ...'
-Function t_ENUM_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_ENUM_TIMESTAMPTZ('ENUM', 'TIMESTAMPTZ', 'yellow'), ...
+Function t_enum_timestamptz is undefined or given wrong number of parameter. select t_ENUM_TIMESTAMPTZ('ENUM', 'TIMESTAMPTZ', 'yellow'), ...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_ENUM_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_enum_timestamptz' does not exist.
 
 ===================================================
     
@@ -478,17 +478,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR BLOB  ;
 begin
 VAR := param_value...'
-Unsupported argument type 'blob' of the stored procedure create or replace function t_BLOB_TIMESTAMPTZ(variables_type...
+Unsupported argument type 'blob' of the stored procedure create or replace function [dba.t_BLOB_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_BLOB_TIMESTAMPTZ('BLOB', 'TIMESTAMPTZ', BIT_TO_BL...'
-Function t_BLOB_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_BLOB_TIMESTAMPTZ('BLOB', 'TIMESTAMPTZ',  bit_to_blo...
+Function t_blob_timestamptz is undefined or given wrong number of parameter. select t_BLOB_TIMESTAMPTZ('BLOB', 'TIMESTAMPTZ',  bit_to_blo...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_BLOB_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_blob_timestamptz' does not exist.
 
 ===================================================
     
@@ -502,17 +502,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR CLOB  ;
 begin
 VAR := param_value...'
-Unsupported argument type 'clob' of the stored procedure create or replace function t_CLOB_TIMESTAMPTZ(variables_type...
+Unsupported argument type 'clob' of the stored procedure create or replace function [dba.t_CLOB_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_CLOB_TIMESTAMPTZ('CLOB', 'TIMESTAMPTZ', CHAR_TO_C...'
-Function t_CLOB_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_CLOB_TIMESTAMPTZ('CLOB', 'TIMESTAMPTZ',  char_to_cl...
+Function t_clob_timestamptz is undefined or given wrong number of parameter. select t_CLOB_TIMESTAMPTZ('CLOB', 'TIMESTAMPTZ',  char_to_cl...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_CLOB_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_clob_timestamptz' does not exist.
 
 ===================================================
     
@@ -526,17 +526,17 @@ Semantic: before '  ) RETURN TIMESTAMPTZ IS
 VAR JSON  ;
 begin
 VAR := param_value...'
-Unsupported argument type 'json' of the stored procedure create or replace function t_JSON_TIMESTAMPTZ(variables_type...
+Unsupported argument type 'json' of the stored procedure create or replace function [dba.t_JSON_TIMESTAMPTZ](variable...
 
 ===================================================
 Error:-494
 Semantic: before ' ,
 typeof( t_JSON_TIMESTAMPTZ('JSON', 'TIMESTAMPTZ', '{"a":1}'...'
-Function t_JSON_TIMESTAMPTZ is undefined or given wrong number of parameter. select t_JSON_TIMESTAMPTZ('JSON', 'TIMESTAMPTZ', '{"a":1}'),...
+Function t_json_timestamptz is undefined or given wrong number of parameter. select t_JSON_TIMESTAMPTZ('JSON', 'TIMESTAMPTZ', '{"a":1}'),...
 
 ===================================================
 Error:-894
-Stored procedure/function 't_JSON_TIMESTAMPTZ' does not exist.
+Stored procedure/function 'dba.t_json_timestamptz' does not exist.
 
 ===================================================
 0

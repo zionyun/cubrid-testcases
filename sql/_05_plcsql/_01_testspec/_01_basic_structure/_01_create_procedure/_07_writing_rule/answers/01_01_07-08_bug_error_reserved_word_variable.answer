@@ -254,9 +254,9 @@ END
 
 
 ===================================================
-Error:-493
-Syntax: In line 2, column 4 before ' ; '
-Syntax error: unexpected 'varchar', expecting ';' 
+Error:-1360
+In line 2, column 1
+Stored procedure compile error: mismatched input 'END' expecting {BEGIN, CURSOR, FUNCTION, LANGUAGE, PRAGMA, PROCEDURE, REVERSE, DELIMITED_ID, REGULAR_ID}
 
 ===================================================
 Error:-493

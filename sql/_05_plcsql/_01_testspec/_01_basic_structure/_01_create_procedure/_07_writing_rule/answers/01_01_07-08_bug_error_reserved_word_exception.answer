@@ -254,9 +254,9 @@ END
 
 
 ===================================================
-Error:-493
-Syntax: In line 2, column 4 before '; '
-Syntax error: unexpected 'EXCEPTION', expecting ';' 
+Error:-1360
+In line 2, column 1
+Stored procedure compile error: mismatched input 'END' expecting {BEGIN, CURSOR, FUNCTION, LANGUAGE, PRAGMA, PROCEDURE, REVERSE, DELIMITED_ID, REGULAR_ID}
 
 ===================================================
 Error:-493
@@ -577,9 +577,7 @@ REVERSE
 
 
 ===================================================
-Error:-1360
-In line 8, column 1
-Stored procedure compile error: Stored procedure/function 'dba.put_line' does not exist.
+0
 
 ===================================================
 'ROLLBACK'    
@@ -882,6 +880,5 @@ In line 3, column 1
 Stored procedure compile error: mismatched input 'begin' expecting {<EOF>, COMMENT}
 
 ===================================================
-Error:-894
-Stored procedure/function 'dba.p_var' does not exist.
+0
 

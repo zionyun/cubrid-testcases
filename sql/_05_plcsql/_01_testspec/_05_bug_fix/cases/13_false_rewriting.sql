@@ -13,7 +13,7 @@ call poo(:a);
 select :a from dual;
 
 
-CREATE OR REPLACE function foo(a int) return char(3) AS
+CREATE OR REPLACE function foo(a int) return char AS
     i char(3);
 BEGIN
     if a is not null

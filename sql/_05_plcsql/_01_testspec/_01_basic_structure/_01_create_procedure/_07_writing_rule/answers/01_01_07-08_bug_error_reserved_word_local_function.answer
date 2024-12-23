@@ -6,7 +6,7 @@ AND
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'AND' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'AND' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'AS'    
@@ -26,7 +26,7 @@ BETWEEN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'BETWEEN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'BETWEEN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'BIGINT'    
@@ -36,7 +36,7 @@ BIGINT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'BIGINT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'BIGINT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'BOOLEAN'    
@@ -46,7 +46,7 @@ BOOLEAN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'BOOLEAN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'BOOLEAN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'BY'    
@@ -56,7 +56,7 @@ BY
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'BY' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'BY' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CHAR'    
@@ -66,7 +66,7 @@ CHAR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'CHAR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'CHAR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CLOSE'    
@@ -76,7 +76,7 @@ CLOSE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'CLOSE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'CLOSE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'COMMIT'    
@@ -86,7 +86,7 @@ COMMIT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'COMMIT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'COMMIT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CONSTANT'    
@@ -96,7 +96,7 @@ CONSTANT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'CONSTANT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'CONSTANT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CONTINUE'    
@@ -106,7 +106,7 @@ CONTINUE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'CONTINUE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'CONTINUE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CREATE'    
@@ -116,7 +116,7 @@ CREATE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'CREATE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'CREATE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'CURSOR'    
@@ -136,7 +136,7 @@ DATE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DATE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DATE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DATETIME'    
@@ -146,7 +146,7 @@ DATETIME
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DATETIME' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DATETIME' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DATETIMELTZ'    
@@ -156,7 +156,7 @@ DATETIMELTZ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DATETIMELTZ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DATETIMELTZ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DATETIMETZ'    
@@ -166,7 +166,7 @@ DATETIMETZ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DATETIMETZ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DATETIMETZ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DEC'    
@@ -176,7 +176,7 @@ DEC
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DEC' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DEC' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DECIMAL'    
@@ -186,7 +186,7 @@ DECIMAL
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DECIMAL' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DECIMAL' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DECLARE'    
@@ -196,7 +196,7 @@ DECLARE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DECLARE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DECLARE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DEFAULT'    
@@ -206,7 +206,7 @@ DEFAULT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DEFAULT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DEFAULT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DIV'    
@@ -216,7 +216,7 @@ DIV
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DIV' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DIV' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'DOUBLE'    
@@ -226,7 +226,7 @@ DOUBLE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'DOUBLE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'DOUBLE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'ELSE'    
@@ -236,7 +236,7 @@ ELSE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'ELSE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'ELSE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'ELSIF'    
@@ -246,7 +246,7 @@ ELSIF
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'ELSIF' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'ELSIF' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'END'    
@@ -277,7 +277,7 @@ ESCAPE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'ESCAPE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'ESCAPE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'EXCEPTION'    
@@ -287,7 +287,7 @@ EXCEPTION
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'EXCEPTION' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'EXCEPTION' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'EXECUTE'    
@@ -297,7 +297,7 @@ EXECUTE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'EXECUTE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'EXECUTE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'EXIT'    
@@ -307,7 +307,7 @@ EXIT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'EXIT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'EXIT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'FALSE'    
@@ -317,7 +317,7 @@ FALSE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'FALSE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'FALSE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'FETCH'    
@@ -327,7 +327,7 @@ FETCH
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'FETCH' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'FETCH' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'FLOAT'    
@@ -337,7 +337,7 @@ FLOAT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'FLOAT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'FLOAT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'FOR'    
@@ -347,7 +347,7 @@ FOR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'FOR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'FOR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'IMMEDIATE'    
@@ -357,7 +357,7 @@ IMMEDIATE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'IMMEDIATE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'IMMEDIATE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'IN'    
@@ -367,7 +367,7 @@ IN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'IN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'IN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'INT'    
@@ -377,7 +377,7 @@ INT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'INT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'INT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'INTEGER'    
@@ -387,7 +387,7 @@ INTEGER
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'INTEGER' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'INTEGER' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'INTO'    
@@ -397,7 +397,7 @@ INTO
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'INTO' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'INTO' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'IS'    
@@ -417,7 +417,7 @@ LIKE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'LIKE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'LIKE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'LIST'    
@@ -427,7 +427,7 @@ LIST
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'LIST' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'LIST' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'MOD'    
@@ -437,7 +437,7 @@ MOD
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'MOD' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'MOD' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'MULTISET'    
@@ -447,7 +447,7 @@ MULTISET
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'MULTISET' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'MULTISET' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'NOT'    
@@ -457,7 +457,7 @@ NOT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'NOT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'NOT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'NULL'    
@@ -467,7 +467,7 @@ NULL
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'NULL' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'NULL' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'NUMERIC'    
@@ -477,7 +477,7 @@ NUMERIC
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'NUMERIC' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'NUMERIC' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'OPEN'    
@@ -487,7 +487,7 @@ OPEN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'OPEN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'OPEN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'OR'    
@@ -497,7 +497,7 @@ OR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'OR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'OR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'OUT'    
@@ -507,7 +507,7 @@ OUT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'OUT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'OUT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'PRAGMA'    
@@ -527,7 +527,7 @@ RAISE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'RAISE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'RAISE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'REAL'    
@@ -537,7 +537,7 @@ REAL
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'REAL' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'REAL' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'REPLACE'    
@@ -547,7 +547,7 @@ REPLACE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'REPLACE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'REPLACE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'RETURN'    
@@ -575,7 +575,7 @@ ROLLBACK
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'ROLLBACK' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'ROLLBACK' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SEQUENCE'    
@@ -585,7 +585,7 @@ SEQUENCE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SEQUENCE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SEQUENCE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SET'    
@@ -595,7 +595,7 @@ SET
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SET' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SET' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SETEQ'    
@@ -605,7 +605,7 @@ SETEQ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SETEQ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SETEQ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SETNEQ'    
@@ -615,7 +615,7 @@ SETNEQ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SETNEQ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SETNEQ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SHORT'    
@@ -625,7 +625,7 @@ SHORT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SHORT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SHORT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SMALLINT'    
@@ -635,7 +635,7 @@ SMALLINT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SMALLINT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SMALLINT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SQL'    
@@ -645,7 +645,7 @@ SQL
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SQL' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SQL' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'STRING'    
@@ -655,7 +655,7 @@ STRING
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'STRING' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'STRING' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SUBSET'    
@@ -665,7 +665,7 @@ SUBSET
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SUBSET' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SUBSET' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SUBSETEQ'    
@@ -675,7 +675,7 @@ SUBSETEQ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SUBSETEQ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SUBSETEQ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SUPERSET'    
@@ -685,7 +685,7 @@ SUPERSET
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SUPERSET' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SUPERSET' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SUPERSETEQ'    
@@ -695,7 +695,7 @@ SUPERSETEQ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SUPERSETEQ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SUPERSETEQ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'SYS_REFCURSOR'    
@@ -705,7 +705,7 @@ SYS_REFCURSOR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'SYS_REFCURSOR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'SYS_REFCURSOR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'THEN'    
@@ -715,7 +715,7 @@ THEN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'THEN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'THEN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TIME'    
@@ -725,7 +725,7 @@ TIME
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TIME' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TIME' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TIMESTAMP'    
@@ -735,7 +735,7 @@ TIMESTAMP
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TIMESTAMP' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TIMESTAMP' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TIMESTAMPLTZ'    
@@ -745,7 +745,7 @@ TIMESTAMPLTZ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TIMESTAMPLTZ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TIMESTAMPLTZ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TIMESTAMPTZ'    
@@ -755,7 +755,7 @@ TIMESTAMPTZ
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TIMESTAMPTZ' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TIMESTAMPTZ' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TRUE'    
@@ -765,7 +765,7 @@ TRUE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TRUE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TRUE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'USING'    
@@ -775,7 +775,7 @@ USING
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'USING' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'USING' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'VARCHAR'    
@@ -785,7 +785,7 @@ VARCHAR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'VARCHAR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'VARCHAR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'WHEN'    
@@ -795,7 +795,7 @@ WHEN
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'WHEN' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'WHEN' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'WHILE'    
@@ -805,7 +805,7 @@ WHILE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'WHILE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'WHILE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'WORK'    
@@ -815,7 +815,7 @@ WORK
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'WORK' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'WORK' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'XOR'    
@@ -825,7 +825,7 @@ XOR
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'XOR' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'XOR' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'INSERT'    
@@ -835,7 +835,7 @@ INSERT
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'INSERT' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'INSERT' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'TRUNCATE'    
@@ -845,7 +845,7 @@ TRUNCATE
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'TRUNCATE' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'TRUNCATE' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'AUTONOMOUS_TRANSACTION'    
@@ -855,7 +855,7 @@ AUTONOMOUS_TRANSACTION
 ===================================================
 Error:-1360
 In line 2, column 10
-Stored procedure compile error: mismatched input 'AUTONOMOUS_TRANSACTION' expecting {REVERSE, DELIMITED_ID, REGULAR_ID}
+Stored procedure compile error: mismatched input 'AUTONOMOUS_TRANSACTION' expecting {REVERSE, DELIMITED_ID, '[', REGULAR_ID}
 
 ===================================================
 'BEGIN'    

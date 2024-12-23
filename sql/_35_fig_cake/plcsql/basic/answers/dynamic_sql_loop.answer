@@ -28,7 +28,7 @@
 ===================================================
 Error:-1360
 In line 6, column 5
-Stored procedure compile error: mismatched input 'LOOP' expecting {<EOF>, COMMENT, DELIMITED_ID, SEMICOLON, REGULAR_ID}
+Stored procedure compile error: mismatched input 'LOOP' expecting {<EOF>, COMMENT, REVERSE, DELIMITED_ID, SEMICOLON, REGULAR_ID}
 
 ===================================================
 Error:-495
@@ -45,5 +45,5 @@ Methods require an object as their target. call get_salary_by_dept() on 'account
 
 ===================================================
 Error:-894
-Stored procedure/function 'get_salary_by_dept' does not exist.
+Stored procedure/function 'dba.get_salary_by_dept' does not exist.
 

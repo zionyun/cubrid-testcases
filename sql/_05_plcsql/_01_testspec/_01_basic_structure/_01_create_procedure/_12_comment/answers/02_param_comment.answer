@@ -37,8 +37,7 @@ Error:-493
 Syntax: before ' )
 as
 begin
-dbms_output.put_line('maximum comment length');
-end; '
+dbms_output.put_line('maximum comment length over'...'
 Maximum length of a comment is 1024 bytes. 
 
 ===================================================

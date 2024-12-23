@@ -23,15 +23,17 @@ null
 
 
 ===================================================
-0
+Error:-493
+Syntax: Precision cannot be specified for argument types and return types ​​of stored procedures and functions. 
 
 ===================================================
-foo(30)    
-cub     
-
+Error:-494
+Semantic: before ' ; '
+Function foo is undefined. select foo(30)
 
 ===================================================
-0
+Error:-894
+Stored procedure/function 'dba.foo' does not exist.
 
 ===================================================
 0

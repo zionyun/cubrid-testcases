@@ -15,6 +15,16 @@ Number: 5
 0
 
 ===================================================
+    
+null     
+
+
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
+===================================================
 0
 
 ===================================================
@@ -31,7 +41,15 @@ Number: 5
 0
 
 ===================================================
-0
+    
+null     
+
+
+Number: 1
+===================================================
+Error:-1360
+In line 3, column 13
+Stored procedure compile error: extraneous input '..' expecting {INSERT, REPLACE, TRUNCATE, CASE, CURRENT_USER, DATE, DATETIME, DEFAULT, FALSE, IF, MOD, NULL_, REVERSE, SQL, SQLCODE, SQLERRM, TIMESTAMP, TIME, TRUE, FLOATING_POINT_NUM, UNSIGNED_INTEGER, DELIMITED_ID, CHAR_STRING, LPAREN, '+', '-', '~', REGULAR_ID}
 
 ===================================================
     
@@ -39,10 +57,6 @@ null
 
 
 Number: 1
-Number: 2
-Number: 3
-Number: 4
-Number: 5
 ===================================================
 0
 

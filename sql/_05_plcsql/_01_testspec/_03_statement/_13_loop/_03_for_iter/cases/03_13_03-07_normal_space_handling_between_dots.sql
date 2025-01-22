@@ -33,7 +33,7 @@ BEGIN
 END;
 CALL PROC_FOR_TEST();
 
---case4: Incorrect usage of the range operator with three dots ('....')
+--case4: Incorrect usage of the range operator with four dots ('....')
 evaluate 'case4';
 DROP PROCEDURE PROC_FOR_TEST;
 CREATE OR REPLACE PROCEDURE PROC_FOR_TEST IS
@@ -44,7 +44,7 @@ BEGIN
 END;
 CALL PROC_FOR_TEST();
 
---case5: Incorrect usage of the range operator with four dots ('...')
+--case5: Incorrect usage of the range operator with three dots ('...')
 evaluate 'case5';
 CREATE OR REPLACE PROCEDURE PROC_FOR_TEST IS
 BEGIN

@@ -1,0 +1,418 @@
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIME_DATETIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sql_type = DATETIME, procedure_type = DATETIME, current_value = 10:51:28.999 AM 02/14/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIMELTZ_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: datetimeltz
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIMETZ_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: datetimetz
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATE_DATETIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sql_type = DATE, procedure_type = DATETIME, current_value = 12:00:00.000 AM 10/31/2008
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIME_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert TIME to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMP_DATETIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sql_type = TIMESTAMP, procedure_type = DATETIME, current_value = 01:15:45.000 PM 10/31/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPLTZ_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: timestamptz
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPTZ_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: timestamptz
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DOUBLE_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert DOUBLE to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_FLOAT_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert FLOAT to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_NUMERIC(8,4)_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert NUMERIC to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_BIGINT_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert BIGINT to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_INT_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert INT to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_SHORT_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert SHORT to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_BIT(8)_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: bit
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_BIT VARYING_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: bit
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_CHAR_DATETIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sql_type = CHAR, procedure_type = DATETIME, current_value = 05:05:05.000 PM 09/01/2005
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_VARCHAR_DATETIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+sql_type = VARCHAR, procedure_type = DATETIME, current_value = 09:09:09.000 PM 09/01/2019
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_SET_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert COLLECTION to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_MULTISET_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert COLLECTION to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_LIST_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: cannot convert COLLECTION to DATETIME
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_ENUM_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  invalid DATETIME string: 'yellow'
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_BLOB_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: blob
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_CLOB_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: Unsupported argument type of stored procedure: clob
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_JSON_DATETIME. This scenario is a failure.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  invalid DATETIME string: '{"a":1}'
+
+===================================================
+0
+
+===================================================
+0
+

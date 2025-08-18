@@ -1,66 +1,66 @@
-1952d1951
+1985d1984
 <   'db_attribute'        'col1'                'max_groupby_order'   'DBA'                 'INSTANCE'                      0  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'NO'                  NULL                
-1954d1952
+1987d1985
 <   'db_attribute'        'col2'                'max_groupby_order'   'DBA'                 'INSTANCE'                      1  NULL                  NULL                  NULL                  'SHORT'                         5            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-1956d1953
+1989d1986
 <   'db_attribute'        'col3'                'max_groupby_order'   'DBA'                 'INSTANCE'                      2  NULL                  NULL                  NULL                  'CHAR'                         30            0  'iso88591'            'iso88591_bin'        NULL                  NULL                  'abc                           '  'YES'                 NULL                
-1958d1954
+1991d1987
 <   'db_attribute'        'col4'                'max_groupby_order'   'DBA'                 'INSTANCE'                      3  NULL                  NULL                  NULL                  'DATE'                         10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  'SYS_DATE'            'YES'                 NULL                
-1960d1955
+1993d1988
 <   'db_attribute'        'col5'                'max_groupby_order'   'DBA'                 'INSTANCE'                      4  NULL                  NULL                  NULL                  'CLOB'                          0            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-1962d1956
+1995d1989
 <   'db_attribute'        'col6'                'max_groupby_order'   'DBA'                 'INSTANCE'                      5  NULL                  NULL                  NULL                  'MONETARY'                     15            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-2267c2261
-< 387 rows selected.Committed.
+2327c2321
+< 414 rows selected.Committed.
 ---
-> 381 rows selected.Committed.
-2354d2347
+> 408 rows selected.Committed.
+2415d2408
 <   'db_class'            'max_groupby_order'   'DBA'                 'CLASS'               'NO'                  'NONE'                'NO'                  'YES'                 'iso88591_bin'        NULL                
-2357c2350
-< 51 rows selected.Committed.
+2418c2411
+< 52 rows selected.Committed.
 ---
-> 50 rows selected.Committed.
-2835d2827
+> 51 rows selected.Committed.
+2897d2889
 <   'db_attribute'        'col1'                'max_groupby_order'   'DBA'                 'INSTANCE'                      0  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'NO'                  NULL                
-2837d2828
+2899d2890
 <   'db_attribute'        'col2'                'max_groupby_order'   'DBA'                 'INSTANCE'                      1  NULL                  NULL                  NULL                  'SHORT'                         5            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-2839d2829
+2901d2891
 <   'db_attribute'        'col3'                'max_groupby_order'   'DBA'                 'INSTANCE'                      2  NULL                  NULL                  NULL                  'CHAR'                         30            0  'iso88591'            'iso88591_bin'        NULL                  NULL                  'abc                           '  'YES'                 NULL                
-2841d2830
+2903d2892
 <   'db_attribute'        'col4'                'max_groupby_order'   'DBA'                 'INSTANCE'                      3  NULL                  NULL                  NULL                  'DATE'                         10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  'SYS_DATE'            'YES'                 NULL                
-2843d2831
+2905d2893
 <   'db_attribute'        'col5'                'max_groupby_order'   'DBA'                 'INSTANCE'                      4  NULL                  NULL                  NULL                  'CLOB'                          0            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-2845d2832
+2907d2894
 <   'db_attribute'        'col6'                'max_groupby_order'   'DBA'                 'INSTANCE'                      5  NULL                  NULL                  NULL                  'MONETARY'                     15            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-3150c3137
-< 387 rows selected.Committed.
+3239c3226
+< 414 rows selected.Committed.
 ---
-> 381 rows selected.Committed.
-3237d3223
+> 408 rows selected.Committed.
+3327d3313
 <   'db_class'            'max_groupby_order'   'DBA'                 'CLASS'               'NO'                  'NONE'                'NO'                  'YES'                 'iso88591_bin'        NULL                
-3240c3226
-< 51 rows selected.Committed.
+3330c3316
+< 52 rows selected.Committed.
 ---
-> 50 rows selected.Committed.
-3717d3702
+> 51 rows selected.Committed.
+3808d3793
 <   'db_attribute'        'col1'                'max_groupby'         'DBA'                 'INSTANCE'                      0  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'NO'                  NULL                
-3719d3703
+3810d3794
 <   'db_attribute'        'col2'                'max_groupby'         'DBA'                 'INSTANCE'                      1  NULL                  NULL                  NULL                  'SHORT'                         5            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-3721d3704
+3812d3795
 <   'db_attribute'        'col3'                'max_groupby'         'DBA'                 'INSTANCE'                      2  NULL                  NULL                  NULL                  'CHAR'                         30            0  'iso88591'            'iso88591_bin'        NULL                  NULL                  'abc                           '  'YES'                 NULL                
-3723d3705
+3814d3796
 <   'db_attribute'        'col4'                'max_groupby'         'DBA'                 'INSTANCE'                      3  NULL                  NULL                  NULL                  'DATE'                         10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  'SYS_DATE'            'YES'                 NULL                
-3725d3706
+3816d3797
 <   'db_attribute'        'col5'                'max_groupby'         'DBA'                 'INSTANCE'                      4  NULL                  NULL                  NULL                  'CLOB'                          0            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-3727d3707
+3818d3798
 <   'db_attribute'        'col6'                'max_groupby'         'DBA'                 'INSTANCE'                      5  NULL                  NULL                  NULL                  'MONETARY'                     15            0  'Not applicable'      'Not applicable'      NULL                  NULL                  NULL                  'YES'                 NULL                
-4033c4013
-< 387 rows selected.Committed.
+4151c4131
+< 414 rows selected.Committed.
 ---
-> 381 rows selected.Committed.
-4119d4098
+> 408 rows selected.Committed.
+4238d4217
 <   'db_class'            'max_groupby'         'DBA'                 'CLASS'               'NO'                  'NONE'                'NO'                  'YES'                 'iso88591_bin'        NULL                
-4123c4102
-< 51 rows selected.Committed.
+4242c4221
+< 52 rows selected.Committed.
 ---
-> 50 rows selected.Committed.
+> 51 rows selected.Committed.

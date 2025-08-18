@@ -1,196 +1,196 @@
-897,898c897,898
+929,930c929,930
 <   't1'                            1           20
 <   't1'                            2           20
 ---
 >   't1'                            1           -1
 >   't1'                            2           -1
-906,907c906,907
+938,939c938,939
 <   't1'                            2           20
 <   't1'                            1           20
 ---
 >   't1'                            2           -1
 >   't1'                            1           -1
-937,938c937,938
+969,970c969,970
 <   't1'                            1          -10
 <   't1'                            2          -10
 ---
 >   't1'                            1           -1
 >   't1'                            2           -1
-946,947c946,947
+978,979c978,979
 <   't1'                            2          -10
 <   't1'                            1          -10
 ---
 >   't1'                            2           -1
 >   't1'                            1           -1
-1345c1345
+1385c1385
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-3578,3579c3578,3579
+3706,3707c3706,3707
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-3587,3588c3587,3588
+3715,3716c3715,3716
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-3618,3619c3618,3619
+3746,3747c3746,3747
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-3627,3628c3627,3628
+3755,3756c3755,3756
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-4026c4026
+4162c4162
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-6260,6261c6260,6261
+6484,6485c6484,6485
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-6269,6270c6269,6270
+6493,6494c6493,6494
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-6300,6301c6300,6301
+6524,6525c6524,6525
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-6309,6310c6309,6310
+6533,6534c6533,6534
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-6708c6708
+6940c6940
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-8942,8943c8942,8943
+9262,9263c9262,9263
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-8951,8952c8951,8952
+9271,9272c9271,9272
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-8982,8983c8982,8983
+9302,9303c9302,9303
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-8991,8992c8991,8992
+9311,9312c9311,9312
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-9390c9390
+9718c9718
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-14232,14233c14232,14233
+14744,14745c14744,14745
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-14241,14242c14241,14242
+14753,14754c14753,14754
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-14272,14273c14272,14273
+14784,14785c14784,14785
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-14281,14282c14281,14282
+14793,14794c14793,14794
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-14680c14680
+15200c15200
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-16914,16915c16914,16915
+17522,17523c17522,17523
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-16923,16924c16923,16924
+17531,17532c17531,17532
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-16954,16955c16954,16955
+17562,17563c17562,17563
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-16963,16964c16963,16964
+17571,17572c17571,17572
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-17362c17362
+17978c17978
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                
-19596,19597c19596,19597
+20300,20301c20300,20301
 <   't1'                            1           20            1
 <   't1'                            2           20            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-19605,19606c19605,19606
+20309,20310c20309,20310
 <   't1'                            2           20            2
 <   't1'                            1           20            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-19636,19637c19636,19637
+20340,20341c20340,20341
 <   't1'                            1          -10            1
 <   't1'                            2          -10            2
 ---
 >   't1'                            1           -1            1
 >   't1'                            2           -1            2
-19645,19646c19645,19646
+20349,20350c20349,20350
 <   't1'                            2          -10            2
 <   't1'                            1          -10            1
 ---
 >   't1'                            2           -1            2
 >   't1'                            1           -1            1
-20044c20044
+20756c20756
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                

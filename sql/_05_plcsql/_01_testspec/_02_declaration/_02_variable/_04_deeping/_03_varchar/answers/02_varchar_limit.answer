@@ -1,0 +1,81 @@
+===================================================
+Error:-1360
+Stored procedure compile error: length must be one of the integers 1 to 1073741823
+
+===================================================
+Error:-1360
+Stored procedure compile error: length must be one of the integers 1 to 1073741823
+
+===================================================
+Error:-1360
+Stored procedure compile error: extraneous input '-'
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+varchar size 1073741823
+length:  1
+===================================================
+    
+null     
+
+
+varchar size 1073741823
+length:  1048576
+===================================================
+    
+null     
+
+
+varchar size 1073741823
+length:  1048576
+===================================================
+    
+null     
+
+
+varchar size 1073741823
+length:  6
+===================================================
+    
+null     
+
+
+varchar size 1073741823
+length:  1048575
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+varchar size 1
+length:  1
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 21) string does not fit in the target type's length
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 21) string does not fit in the target type's length
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 21) string does not fit in the target type's length
+
+===================================================
+0
+
+===================================================
+0
+

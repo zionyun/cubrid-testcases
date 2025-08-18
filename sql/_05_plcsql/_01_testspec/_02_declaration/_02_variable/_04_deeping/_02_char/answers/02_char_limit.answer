@@ -1,0 +1,53 @@
+===================================================
+Error:-1360
+Stored procedure compile error: length must be one of the integers 1 to 2048
+
+===================================================
+Error:-1360
+Stored procedure compile error: length must be one of the integers 1 to 2048
+
+===================================================
+Error:-1360
+Stored procedure compile error: extraneous input '-'
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+char_length: 2048      
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+char size 1
+value:   a
+length:  1
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 22) string does not fit in the target type's length
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 22) string does not fit in the target type's length
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 2, column 22) string does not fit in the target type's length
+
+===================================================
+0
+
+===================================================
+0
+

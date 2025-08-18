@@ -1,9 +1,10 @@
 --+ server-message on
 
 -- normal: closing an unopen cursor or cursor variable raises INVALID_CURSOR
+-- Verified for CBRD-24951
 
 create or replace procedure t(i int) as
-    cursor c(cs varchar(32), b int) is select coll_name from db_collation where charset_name = cs and coll_id > b;
+    cursor c(cs varchar, b int) is select coll_name from db_collation where charset_name = cs and coll_id > b;
 begin
     close c;
     dbms_output.put_line('unreachable');

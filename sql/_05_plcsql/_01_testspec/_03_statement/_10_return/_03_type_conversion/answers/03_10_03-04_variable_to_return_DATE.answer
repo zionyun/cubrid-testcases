@@ -1,0 +1,540 @@
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIME_DATE. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_DATETIME_DATE('DATETIME', 'DATE', datetime '2023-02-14 10:51:28.999')    typeof(t_DATETIME_DATE('DATETIME', 'DATE', datetime '2023-02-14 10:51:28.999'))    
+2023-02-14     date     
+
+
+variables_type = DATETIME, return_type = DATE, param_value(variable value) = 10:51:28.999 AM 02/14/2023
+variables_type = DATETIME, return_type = DATE, param_value(variable value) = 10:51:28.999 AM 02/14/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIMELTZ_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR DATETIMELTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'datetimeltz' of the stored procedure create or replace function [dba.t_DATETIMELTZ_DATE](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMELTZ_DATE('DATETIMELTZ', 'DATE', datetimel...'
+Function t_datetimeltz_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimeltz_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMETZ_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR DATETIMETZ  ;
+begin
+VAR := param_value ...'
+Unsupported argument type 'datetimetz' of the stored procedure create or replace function [dba.t_DATETIMETZ_DATE](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMETZ_DATE('DATETIMETZ', 'DATE', datetimetz ...'
+Function t_datetimetz_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimetz_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATE_DATE. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_DATE_DATE('DATE', 'DATE', date '2008-10-31')    typeof(t_DATE_DATE('DATE', 'DATE', date '2008-10-31'))    
+2008-10-31     date     
+
+
+variables_type = DATE, return_type = DATE, param_value(variable value) = 10/31/2008
+variables_type = DATE, return_type = DATE, param_value(variable value) = 10/31/2008
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIME_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIME_DATE('TIME', 'DATE', TIME'13:15:45' ) ) ; '
+Function t_time_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_time_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMP_DATE. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_TIMESTAMP_DATE('TIMESTAMP', 'DATE', timestamp '2023-10-31 13:15:45')    typeof(t_TIMESTAMP_DATE('TIMESTAMP', 'DATE', timestamp '2023-10-31 13:15:45'))    
+2023-10-31     date     
+
+
+variables_type = TIMESTAMP, return_type = DATE, param_value(variable value) = 01:15:45 PM 10/31/2023
+variables_type = TIMESTAMP, return_type = DATE, param_value(variable value) = 01:15:45 PM 10/31/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPLTZ_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR TIMESTAMPLTZ  ;
+begin
+VAR := param_valu...'
+Unsupported argument type 'timestampltz' of the stored procedure create or replace function [dba.t_TIMESTAMPLTZ_DATE](variabl...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPLTZ_DATE('TIMESTAMPLTZ', 'DATE', timesta...'
+Function t_timestampltz_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestampltz_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPTZ_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR TIMESTAMPTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMPTZ_DATE](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPTZ_DATE('TIMESTAMPTZ', 'DATE', timestamp...'
+Function t_timestamptz_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamptz_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DOUBLE_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DOUBLE_DATE('DOUBLE', 'DATE', cast( 1234.56789 as...'
+Function t_double_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_double_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_FLOAT_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_FLOAT_DATE('FLOAT', 'DATE', cast( 16777.217 as fl...'
+Function t_float_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_float_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_NUMERIC(8,4)_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_NUMERIC_DATE('NUMERIC(8,4)', 'DATE', cast( 0.1234...'
+Function t_numeric_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIGINT_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIGINT_DATE('BIGINT', 'DATE', cast( 34589012 as b...'
+Function t_bigint_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bigint_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_INT_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_INT_DATE('INT', 'DATE', cast( 782346 as int ) ) ) ; '
+Function t_int_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_int_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_SHORT_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SHORT_DATE('SHORT', 'DATE', cast( 8934 as short )...'
+Function t_short_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_short_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT(8)_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR BIT(8)  ;
+begin
+VAR := param_value ;
+db...'
+Unsupported argument type 'bit' of the stored procedure create or replace function [dba.t_BIT_DATE](variables_type  ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIT_DATE('BIT(8)', 'DATE', 0xaa ) ) ; '
+Function t_bit_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bit_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT VARYING_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR BIT VARYING  ;
+begin
+VAR := param_value...'
+dba.BITVARYING is not defined. create or replace function [dba.t_BITVARYING_DATE](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BITVARYING_DATE('BIT VARYING', 'DATE', 0xaa ) ) ; '
+Function t_bitvarying_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bitvarying_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CHAR_DATE. This scenario is a success.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 8) string does not fit in the target type's length
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_VARCHAR_DATE. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_VARCHAR_DATE('VARCHAR', 'DATE',  cast('09/01/2019' as varchar(10)))    typeof(t_VARCHAR_DATE('VARCHAR', 'DATE',  cast('09/01/2019' as varchar(10))))    
+2019-09-01     date     
+
+
+variables_type = VARCHAR, return_type = DATE, param_value(variable value) = 09/01/2019
+variables_type = VARCHAR, return_type = DATE, param_value(variable value) = 09/01/2019
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_SET_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value SET'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SET_DATE('SET', 'DATE', {'c','c','c','b','b','a'}...'
+Function t_set_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_set_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_MULTISET_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value MULTISET'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_MULTISET_DATE('MULTISET', 'DATE', {'c','c','c','b...'
+Function t_multiset_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_multiset_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_LIST_DATE. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value LIST'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_LIST_DATE('LIST', 'DATE', {'c','c','c','b','b', '...'
+Function t_list_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_list_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_ENUM_DATE. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_ENUM_DATE('ENUM', 'DATE', 'yellow' ) ) ; '
+Function t_enum_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_enum_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BLOB_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR BLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'blob' of the stored procedure create or replace function [dba.t_BLOB_DATE](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BLOB_DATE('BLOB', 'DATE', BIT_TO_BLOB(X'000010') ...'
+Function t_blob_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_blob_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CLOB_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR CLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'clob' of the stored procedure create or replace function [dba.t_CLOB_DATE](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CLOB_DATE('CLOB', 'DATE', CHAR_TO_CLOB('This is a...'
+Function t_clob_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_clob_date' does not exist.
+
+===================================================
+    
+null     
+
+
+t_JSON_DATE. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN DATE IS
+VAR JSON  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'json' of the stored procedure create or replace function [dba.t_JSON_DATE](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_JSON_DATE('JSON', 'DATE', '{"a":1}' ) ) ; '
+Function t_json_date is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_json_date' does not exist.
+
+===================================================
+0
+

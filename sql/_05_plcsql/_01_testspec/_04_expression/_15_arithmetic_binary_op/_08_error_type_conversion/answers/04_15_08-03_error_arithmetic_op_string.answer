@@ -1,0 +1,72 @@
+===================================================
+'This test produces a compilation error. ( t_compile_error_date, string )'    
+This test produces a compilation error. ( t_compile_error_date, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_date, string )'    
+This test produces a compilation error. ( t_compile_error_date, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_time, string )'    
+This test produces a compilation error. ( t_compile_error_time, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_time, string )'    
+This test produces a compilation error. ( t_compile_error_time, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_datetime, string )'    
+This test produces a compilation error. ( t_compile_error_datetime, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_datetime, string )'    
+This test produces a compilation error. ( t_compile_error_datetime, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_timestamp, string )'    
+This test produces a compilation error. ( t_compile_error_timestamp, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+
+===================================================
+'This test produces a compilation error. ( t_compile_error_timestamp, string )'    
+This test produces a compilation error. ( t_compile_error_timestamp, string )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: operands do not have compatible types
+

@@ -1,12 +1,12 @@
-4405c4405
+4565c4565
 <   't1'                            1          -10
 ---
 >   't1'                            1           -1
-4413c4413
+4573c4573
 <   't1'                            1          -10
 ---
 >   't1'                            1           -1
-4811c4811
+4979c4979
 <   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-10'                 'YES'                 NULL                
 ---
 >   'db_attribute'        'i2'                  't1'                  'DBA'                 'SHARED'                        1  NULL                  NULL                  NULL                  'INTEGER'                      10            0  'Not applicable'      'Not applicable'      NULL                  NULL                  '-1'                  'YES'                 NULL                

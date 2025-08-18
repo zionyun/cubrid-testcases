@@ -29,11 +29,11 @@ call test1();
 call test1('x');
 drop function testInt;
 
- CREATE  FUNCTION jdbc1(i string) RETURN string as language java name 'jdbc_cubrid415.main1(java.lang.String) return java.lang.String';
- CREATE  procedure  jdbc2(i string)  as language java name 'jdbc_cubrid415.main2(java.lang.String) ';
- CREATE  procedure  jdbc3_c(i string)  as language java name 'jdbc_cubrid415.main3_c(java.lang.String) ';
- CREATE  procedure  jdbc3_r(i string)  as language java name 'jdbc_cubrid415.main3_r(java.lang.String) ';
- CREATE  procedure  jdbc3_autocommiton(i string)  as language java name 'jdbc_cubrid415.main3_autocommiton(java.lang.String) ';
+ CREATE  OR REPLACE FUNCTION jdbc1(i string) RETURN string as language java name 'jdbc_cubrid415.main1(java.lang.String) return java.lang.String';
+ CREATE  OR REPLACE procedure  jdbc2(i string)  as language java name 'jdbc_cubrid415.main2(java.lang.String) ';
+ CREATE  OR REPLACE procedure  jdbc3_c(i string)  as language java name 'jdbc_cubrid415.main3_c(java.lang.String) ';
+ CREATE  OR REPLACE procedure  jdbc3_r(i string)  as language java name 'jdbc_cubrid415.main3_r(java.lang.String) ';
+ CREATE  OR REPLACE procedure  jdbc3_autocommiton(i string)  as language java name 'jdbc_cubrid415.main3_autocommiton(java.lang.String) ';
 
 call jdbc2('create class yoo');
 select * from yoo;
@@ -41,7 +41,7 @@ select * from yoo;
 call jdbc3_c('create class zoo');
 select * from zoo;
 
-call jdbc2('call jdbc3_c(''create class xoo ( id int)'')');
+create class xoo ( id int);
 select * from xoo;
 
 call jdbc2('insert into xoo values(10)');
@@ -58,6 +58,7 @@ drop procedure jdbc2;
 drop procedure jdbc3_c;
 drop procedure jdbc3_r;
 drop procedure jdbc3_autocommiton;
+drop xoo;
 drop yoo;
 drop zoo;
 

@@ -1,0 +1,328 @@
+===================================================
+'This test throws an execution error. ( null mod 0 )'    
+This test throws an execution error. ( null mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( variable(null) mod 0 )'    
+This test throws an execution error. ( variable(null) mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+string(null) mod 0 = null
+short(null) mod 0 = null
+int(null) mod 0 = null
+bigint(null) mod 0 = null
+numeric(null) mod 0 = null
+float(null) mod 0 = null
+double(null) mod 0 = null
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( null div 0 )'    
+This test throws an execution error. ( null div 0 )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+***************************************
+null = NULL
+***************************************
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( variable(null) div 0 )'    
+This test throws an execution error. ( variable(null) div 0 )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+string(null) div 0 = null
+short(null) div 0 = null
+int(null) div 0 = null
+bigint(null) div 0 = null
+numeric(null) div 0 = null
+float(null) div 0 = null
+double(null) div 0 = null
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_string mod 0 )'    
+This test throws an execution error. ( t_string mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 3, column 42) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_string div 0 )'    
+This test throws an execution error. ( t_string div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 46) division by zero
+
+***************************************
+left_string = 123
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_short mod 0 )'    
+This test throws an execution error. ( t_short mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 39) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_short div 0 )'    
+This test throws an execution error. ( t_short div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 45) division by zero
+
+***************************************
+left_short = 8934
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_int mod 0 )'    
+This test throws an execution error. ( t_int mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 40) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_int div 0 )'    
+This test throws an execution error. ( t_int div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 43) division by zero
+
+***************************************
+left_int = 78234
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_bigint mod 0 )'    
+This test throws an execution error. ( t_bigint mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 41) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_bigint div 0 )'    
+This test throws an execution error. ( t_bigint div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 46) division by zero
+
+***************************************
+left_bigint = 278234
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_numeric mod 0)'    
+This test throws an execution error. ( t_numeric mod 0)     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 43) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_numeric div 0 )'    
+This test throws an execution error. ( t_numeric div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 47) division by zero
+
+***************************************
+left_numeric = 5678.1230
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_float mod 0 )'    
+This test throws an execution error. ( t_float mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 43) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_float div 0 )'    
+This test throws an execution error. ( t_float div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 45) division by zero
+
+***************************************
+left_float = 3677.345
+***************************************
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_double mod 0 )'    
+This test throws an execution error. ( t_double mod 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 45) division by zero
+
+===================================================
+0
+
+===================================================
+'This test throws an execution error. ( t_double div 0 )'    
+This test throws an execution error. ( t_double div 0 )     
+
+
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 7, column 46) division by zero
+
+***************************************
+left_double = 56789.1234
+***************************************
+===================================================
+0
+

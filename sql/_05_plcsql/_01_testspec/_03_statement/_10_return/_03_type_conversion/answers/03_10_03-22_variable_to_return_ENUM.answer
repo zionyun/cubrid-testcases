@@ -1,0 +1,531 @@
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIME_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIME_ENUM('DATETIME', 'ENUM', DATETIME'2023-0...'
+Function t_datetime_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetime_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMELTZ_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMELTZ_ENUM('DATETIMELTZ', 'ENUM', datetimel...'
+Function t_datetimeltz_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimeltz_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMETZ_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMETZ_ENUM('DATETIMETZ', 'ENUM', datetimetz ...'
+Function t_datetimetz_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimetz_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATE_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATE_ENUM('DATE', 'ENUM', DATE'2008-10-31' ) ) ; '
+Function t_date_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_date_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIME_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIME_ENUM('TIME', 'ENUM', TIME'13:15:45' ) ) ; '
+Function t_time_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_time_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMP_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMP_ENUM('TIMESTAMP', 'ENUM', TIMESTAMP'202...'
+Function t_timestamp_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamp_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPLTZ_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPLTZ_ENUM('TIMESTAMPLTZ', 'ENUM', timesta...'
+Function t_timestampltz_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestampltz_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPTZ_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPTZ_ENUM('TIMESTAMPTZ', 'ENUM', timestamp...'
+Function t_timestamptz_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamptz_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DOUBLE_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DOUBLE_ENUM('DOUBLE', 'ENUM', cast( 1234.56789 as...'
+Function t_double_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_double_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_FLOAT_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_FLOAT_ENUM('FLOAT', 'ENUM', cast( 16777.217 as fl...'
+Function t_float_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_float_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_NUMERIC(8,4)_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_NUMERIC_ENUM('NUMERIC(8,4)', 'ENUM', cast( 0.1234...'
+Function t_numeric_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIGINT_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIGINT_ENUM('BIGINT', 'ENUM', cast( 34589012 as b...'
+Function t_bigint_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bigint_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_INT_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_INT_ENUM('INT', 'ENUM', cast( 782346 as int ) ) ) ; '
+Function t_int_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_int_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_SHORT_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SHORT_ENUM('SHORT', 'ENUM', cast( 8934 as short )...'
+Function t_short_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_short_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT(8)_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIT_ENUM('BIT(8)', 'ENUM', 0xaa ) ) ; '
+Function t_bit_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bit_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT VARYING_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BITVARYING_ENUM('BIT VARYING', 'ENUM', 0xaa ) ) ; '
+Function t_bitvarying_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bitvarying_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CHAR_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CHAR_ENUM('CHAR', 'ENUM', 'yellow' ) ) ; '
+Function t_char_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_char_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_VARCHAR_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_VARCHAR_ENUM('VARCHAR', 'ENUM', 'yellow' ) ) ; '
+Function t_varchar_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_varchar_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_SET_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SET_ENUM('SET', 'ENUM', {'c','c','c','b','b','a'}...'
+Function t_set_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_set_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_MULTISET_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_MULTISET_ENUM('MULTISET', 'ENUM', {'c','c','c','b...'
+Function t_multiset_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_multiset_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_LIST_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_LIST_ENUM('LIST', 'ENUM', {'c','c','c','b','b', '...'
+Function t_list_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_list_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_ENUM_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_ENUM_ENUM('ENUM', 'ENUM', 'yellow' ) ) ; '
+Function t_enum_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_enum_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BLOB_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BLOB_ENUM('BLOB', 'ENUM', BIT_TO_BLOB(X'000010') ...'
+Function t_blob_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_blob_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CLOB_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CLOB_ENUM('CLOB', 'ENUM', CHAR_TO_CLOB('This is a...'
+Function t_clob_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_clob_enum' does not exist.
+
+===================================================
+    
+null     
+
+
+t_JSON_ENUM. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_JSON_ENUM('JSON', 'ENUM', '{"a":1}' ) ) ; '
+Function t_json_enum is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_json_enum' does not exist.
+
+===================================================
+0
+

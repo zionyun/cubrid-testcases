@@ -1,0 +1,547 @@
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIME_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_DATETIME_JSON](variables_t...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIME_JSON('DATETIME', 'JSON', DATETIME'2023-0...'
+Function t_datetime_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetime_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMELTZ_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR DATETIMELTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'datetimeltz' of the stored procedure create or replace function [dba.t_DATETIMELTZ_JSON](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMELTZ_JSON('DATETIMELTZ', 'JSON', datetimel...'
+Function t_datetimeltz_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimeltz_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMETZ_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR DATETIMETZ  ;
+begin
+VAR := param_value ...'
+Unsupported argument type 'datetimetz' of the stored procedure create or replace function [dba.t_DATETIMETZ_JSON](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMETZ_JSON('DATETIMETZ', 'JSON', datetimetz ...'
+Function t_datetimetz_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimetz_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATE_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_DATE_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATE_JSON('DATE', 'JSON', DATE'2008-10-31' ) ) ; '
+Function t_date_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_date_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIME_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_TIME_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIME_JSON('TIME', 'JSON', TIME'13:15:45' ) ) ; '
+Function t_time_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_time_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMP_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_TIMESTAMP_JSON](variables_...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMP_JSON('TIMESTAMP', 'JSON', TIMESTAMP'202...'
+Function t_timestamp_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamp_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPLTZ_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR TIMESTAMPLTZ  ;
+begin
+VAR := param_valu...'
+Unsupported argument type 'timestampltz' of the stored procedure create or replace function [dba.t_TIMESTAMPLTZ_JSON](variabl...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPLTZ_JSON('TIMESTAMPLTZ', 'JSON', timesta...'
+Function t_timestampltz_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestampltz_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPTZ_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR TIMESTAMPTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMPTZ_JSON](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPTZ_JSON('TIMESTAMPTZ', 'JSON', timestamp...'
+Function t_timestamptz_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamptz_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DOUBLE_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_DOUBLE_JSON](variables_typ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DOUBLE_JSON('DOUBLE', 'JSON', cast( 1234.56789 as...'
+Function t_double_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_double_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_FLOAT_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_FLOAT_JSON](variables_type...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_FLOAT_JSON('FLOAT', 'JSON', cast( 16777.217 as fl...'
+Function t_float_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_float_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_NUMERIC(8,4)_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_NUMERIC_JSON](variables_ty...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_NUMERIC_JSON('NUMERIC(8,4)', 'JSON', cast( 0.1234...'
+Function t_numeric_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIGINT_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_BIGINT_JSON](variables_typ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIGINT_JSON('BIGINT', 'JSON', cast( 34589012 as b...'
+Function t_bigint_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bigint_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_INT_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_INT_JSON](variables_type  ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_INT_JSON('INT', 'JSON', cast( 782346 as int ) ) ) ; '
+Function t_int_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_int_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_SHORT_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_SHORT_JSON](variables_type...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SHORT_JSON('SHORT', 'JSON', cast( 8934 as short )...'
+Function t_short_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_short_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT(8)_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR BIT(8)  ;
+begin
+VAR := param_value ;
+db...'
+Unsupported argument type 'bit' of the stored procedure create or replace function [dba.t_BIT_JSON](variables_type  ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIT_JSON('BIT(8)', 'JSON', 0xaa ) ) ; '
+Function t_bit_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bit_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT VARYING_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR BIT VARYING  ;
+begin
+VAR := param_value...'
+dba.BITVARYING is not defined. create or replace function [dba.t_BITVARYING_JSON](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BITVARYING_JSON('BIT VARYING', 'JSON', 0xaa ) ) ; '
+Function t_bitvarying_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bitvarying_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CHAR_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_CHAR_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CHAR_JSON('CHAR', 'JSON', '{"a":1}' ) ) ; '
+Function t_char_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_char_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_VARCHAR_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_VARCHAR_JSON](variables_ty...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_VARCHAR_JSON('VARCHAR', 'JSON', '{"a":1}' ) ) ; '
+Function t_varchar_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_varchar_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_SET_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_SET_JSON](variables_type  ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SET_JSON('SET', 'JSON', {'c','c','c','b','b','a'}...'
+Function t_set_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_set_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_MULTISET_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_MULTISET_JSON](variables_t...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_MULTISET_JSON('MULTISET', 'JSON', {'c','c','c','b...'
+Function t_multiset_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_multiset_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_LIST_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: Unsupported return type 'json' of the stored procedure create or replace function [dba.t_LIST_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_LIST_JSON('LIST', 'JSON', {'c','c','c','b','b', '...'
+Function t_list_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_list_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_ENUM_JSON. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_ENUM_JSON('ENUM', 'JSON', 'yellow' ) ) ; '
+Function t_enum_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_enum_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BLOB_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR BLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'blob' of the stored procedure create or replace function [dba.t_BLOB_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BLOB_JSON('BLOB', 'JSON', BIT_TO_BLOB(X'000010') ...'
+Function t_blob_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_blob_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CLOB_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR CLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'clob' of the stored procedure create or replace function [dba.t_CLOB_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CLOB_JSON('CLOB', 'JSON', CHAR_TO_CLOB('This is a...'
+Function t_clob_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_clob_json' does not exist.
+
+===================================================
+    
+null     
+
+
+t_JSON_JSON. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN JSON IS
+VAR JSON  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'json' of the stored procedure create or replace function [dba.t_JSON_JSON](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_JSON_JSON('JSON', 'JSON', '{"a":1}' ) ) ; '
+Function t_json_json is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_json_json' does not exist.
+
+===================================================
+0
+

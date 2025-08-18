@@ -1,0 +1,216 @@
+===================================================
+'An error occurs. ( t_boolean, numeric )'    
+An error occurs. ( t_boolean, numeric )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: argument 2 to the call of T_LOCAL has an incompatible type Boolean
+
+===================================================
+Error:-495
+Execute: before '  ; '
+Methods require an object as their target. call t_numeric() on 'boolean'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric' does not exist.
+
+===================================================
+'It is called normally. ( t_string, numeric )'    
+It is called normally. ( t_string, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+string to numeric
+string => 123
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_short, numeric )'    
+It is called normally. ( t_short, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+short to numeric
+short => 8934
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_int, numeric )'    
+It is called normally. ( t_int, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+int to numeric
+int => 8234
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_bigint, numeric )'    
+It is called normally. ( t_bigint, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+bigint to numeric
+bigint => 278
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_numeric(8,3), numeric )'    
+It is called normally. ( t_numeric(8,3), numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+numeric(8,3) to numeric
+numeric(8,3) => 5678.123
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_float, numeric )'    
+It is called normally. ( t_float, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+float to numeric
+float => 3677.344
+===================================================
+0
+
+===================================================
+'It is called normally. ( t_double, numeric )'    
+It is called normally. ( t_double, numeric )     
+
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+double to numeric
+double => 789.1234
+===================================================
+0
+
+===================================================
+'An error occurs. ( t_date, numeric )'    
+An error occurs. ( t_date, numeric )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: argument 2 to the call of T_LOCAL has an incompatible type Date
+
+===================================================
+Error:-495
+Execute: before '  ; '
+Methods require an object as their target. call t_numeric() on 'date'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric' does not exist.
+
+===================================================
+'An error occurs. ( t_time, numeric )'    
+An error occurs. ( t_time, numeric )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: argument 2 to the call of T_LOCAL has an incompatible type Time
+
+===================================================
+Error:-495
+Execute: before '  ; '
+Methods require an object as their target. call t_numeric() on 'time'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric' does not exist.
+
+===================================================
+'An error occurs. ( t_datetime, numeric )'    
+An error occurs. ( t_datetime, numeric )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: argument 2 to the call of T_LOCAL has an incompatible type Datetime
+
+===================================================
+Error:-495
+Execute: before '  ; '
+Methods require an object as their target. call t_numeric() on 'datetime'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric' does not exist.
+
+===================================================
+'An error occurs. ( t_timestamp, numeric )'    
+An error occurs. ( t_timestamp, numeric )     
+
+
+===================================================
+Error:-1360
+Stored procedure compile error: argument 2 to the call of T_LOCAL has an incompatible type Timestamp
+
+===================================================
+Error:-495
+Execute: before '  ; '
+Methods require an object as their target. call t_numeric() on 'timestamp'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric' does not exist.
+

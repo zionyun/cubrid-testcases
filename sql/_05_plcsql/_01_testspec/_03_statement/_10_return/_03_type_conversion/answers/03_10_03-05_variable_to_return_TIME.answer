@@ -1,0 +1,535 @@
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIME_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_DATETIME_TIME('DATETIME', 'TIME', datetime '2023-02-14 10:51:28.999')    typeof(t_DATETIME_TIME('DATETIME', 'TIME', datetime '2023-02-14 10:51:28.999'))    
+10:51:28     time     
+
+
+variables_type = DATETIME, return_type = TIME, param_value(variable value) = 10:51:28.999 AM 02/14/2023
+variables_type = DATETIME, return_type = TIME, param_value(variable value) = 10:51:28.999 AM 02/14/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_DATETIMELTZ_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR DATETIMELTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'datetimeltz' of the stored procedure create or replace function [dba.t_DATETIMELTZ_TIME](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMELTZ_TIME('DATETIMELTZ', 'TIME', datetimel...'
+Function t_datetimeltz_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimeltz_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATETIMETZ_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR DATETIMETZ  ;
+begin
+VAR := param_value ...'
+Unsupported argument type 'datetimetz' of the stored procedure create or replace function [dba.t_DATETIMETZ_TIME](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATETIMETZ_TIME('DATETIMETZ', 'TIME', datetimetz ...'
+Function t_datetimetz_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_datetimetz_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DATE_TIME. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_DATE_TIME('DATE', 'TIME', DATE'2008-10-31' ) ) ; '
+Function t_date_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_date_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIME_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_TIME_TIME('TIME', 'TIME', time '13:15:45')    typeof(t_TIME_TIME('TIME', 'TIME', time '13:15:45'))    
+13:15:45     time     
+
+
+variables_type = TIME, return_type = TIME, param_value(variable value) = 01:15:45 PM
+variables_type = TIME, return_type = TIME, param_value(variable value) = 01:15:45 PM
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMP_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_TIMESTAMP_TIME('TIMESTAMP', 'TIME', timestamp '2023-10-31 13:15:45')    typeof(t_TIMESTAMP_TIME('TIMESTAMP', 'TIME', timestamp '2023-10-31 13:15:45'))    
+13:15:45     time     
+
+
+variables_type = TIMESTAMP, return_type = TIME, param_value(variable value) = 01:15:45 PM 10/31/2023
+variables_type = TIMESTAMP, return_type = TIME, param_value(variable value) = 01:15:45 PM 10/31/2023
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPLTZ_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR TIMESTAMPLTZ  ;
+begin
+VAR := param_valu...'
+Unsupported argument type 'timestampltz' of the stored procedure create or replace function [dba.t_TIMESTAMPLTZ_TIME](variabl...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPLTZ_TIME('TIMESTAMPLTZ', 'TIME', timesta...'
+Function t_timestampltz_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestampltz_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_TIMESTAMPTZ_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR TIMESTAMPTZ  ;
+begin
+VAR := param_value...'
+Unsupported argument type 'timestamptz' of the stored procedure create or replace function [dba.t_TIMESTAMPTZ_TIME](variable...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_TIMESTAMPTZ_TIME('TIMESTAMPTZ', 'TIME', timestamp...'
+Function t_timestamptz_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_timestamptz_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_DOUBLE_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_DOUBLE_TIME('DOUBLE', 'TIME',  cast(1234.56789 as double))    typeof(t_DOUBLE_TIME('DOUBLE', 'TIME',  cast(1234.56789 as double)))    
+00:20:35     time     
+
+
+variables_type = DOUBLE, return_type = TIME, param_value(variable value) = 1.234567890000000e+03
+variables_type = DOUBLE, return_type = TIME, param_value(variable value) = 1.234567890000000e+03
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_FLOAT_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_FLOAT_TIME('FLOAT', 'TIME',  cast(16777.217 as float))    typeof(t_FLOAT_TIME('FLOAT', 'TIME',  cast(16777.217 as float)))    
+04:39:37     time     
+
+
+variables_type = FLOAT, return_type = TIME, param_value(variable value) = 1.677722e+04
+variables_type = FLOAT, return_type = TIME, param_value(variable value) = 1.677722e+04
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_NUMERIC(8,4)_TIME. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: type of the return value is not compatible with the return type
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_NUMERIC_TIME('NUMERIC(8,4)', 'TIME', cast( 0.1234...'
+Function t_numeric_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_numeric_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIGINT_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_BIGINT_TIME('BIGINT', 'TIME',  cast(34589012 as bigint))    typeof(t_BIGINT_TIME('BIGINT', 'TIME',  cast(34589012 as bigint)))    
+08:03:32     time     
+
+
+variables_type = BIGINT, return_type = TIME, param_value(variable value) = 34589012
+variables_type = BIGINT, return_type = TIME, param_value(variable value) = 34589012
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_INT_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_INT_TIME('INT', 'TIME',  cast(782346 as integer))    typeof(t_INT_TIME('INT', 'TIME',  cast(782346 as integer)))    
+01:19:06     time     
+
+
+variables_type = INT, return_type = TIME, param_value(variable value) = 782346
+variables_type = INT, return_type = TIME, param_value(variable value) = 782346
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_SHORT_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_SHORT_TIME('SHORT', 'TIME',  cast(8934 as smallint))    typeof(t_SHORT_TIME('SHORT', 'TIME',  cast(8934 as smallint)))    
+02:28:54     time     
+
+
+variables_type = SHORT, return_type = TIME, param_value(variable value) = 8934
+variables_type = SHORT, return_type = TIME, param_value(variable value) = 8934
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_BIT(8)_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR BIT(8)  ;
+begin
+VAR := param_value ;
+db...'
+Unsupported argument type 'bit' of the stored procedure create or replace function [dba.t_BIT_TIME](variables_type  ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BIT_TIME('BIT(8)', 'TIME', 0xaa ) ) ; '
+Function t_bit_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bit_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BIT VARYING_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR BIT VARYING  ;
+begin
+VAR := param_value...'
+dba.BITVARYING is not defined. create or replace function [dba.t_BITVARYING_TIME](variables...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BITVARYING_TIME('BIT VARYING', 'TIME', 0xaa ) ) ; '
+Function t_bitvarying_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_bitvarying_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CHAR_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+Error:-889
+Stored procedure execute error: 
+  (line 4, column 8) string does not fit in the target type's length
+
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_VARCHAR_TIME. This scenario is a success.
+===================================================
+0
+
+===================================================
+t_VARCHAR_TIME('VARCHAR', 'TIME',  cast('09:09:09 pm' as varchar))    typeof(t_VARCHAR_TIME('VARCHAR', 'TIME',  cast('09:09:09 pm' as varchar)))    
+21:09:09     time     
+
+
+variables_type = VARCHAR, return_type = TIME, param_value(variable value) = 09:09:09 pm
+variables_type = VARCHAR, return_type = TIME, param_value(variable value) = 09:09:09 pm
+===================================================
+0
+
+===================================================
+    
+null     
+
+
+t_SET_TIME. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value SET'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_SET_TIME('SET', 'TIME', {'c','c','c','b','b','a'}...'
+Function t_set_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_set_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_MULTISET_TIME. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value MULTISET'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_MULTISET_TIME('MULTISET', 'TIME', {'c','c','c','b...'
+Function t_multiset_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_multiset_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_LIST_TIME. This scenario is a failure.
+===================================================
+Error:-1360
+Stored procedure compile error: no viable alternative at input 'param_value LIST'
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_LIST_TIME('LIST', 'TIME', {'c','c','c','b','b', '...'
+Function t_list_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_list_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_ENUM_TIME. This scenario is a failure.
+===================================================
+Error:-493
+Syntax: invalid create function
+  CREATE [OR REPLACE] FUNCTION identifier '(' {sp_param_list} ')' RETURN {data_type|CURSOR} {IS|AS} {[LANGUAGE PLCSQL|LANGUAGE JAVA]} {function_source|function_spec} 
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_ENUM_TIME('ENUM', 'TIME', 'yellow' ) ) ; '
+Function t_enum_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_enum_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_BLOB_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR BLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'blob' of the stored procedure create or replace function [dba.t_BLOB_TIME](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_BLOB_TIME('BLOB', 'TIME', BIT_TO_BLOB(X'000010') ...'
+Function t_blob_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_blob_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_CLOB_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR CLOB  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'clob' of the stored procedure create or replace function [dba.t_CLOB_TIME](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_CLOB_TIME('CLOB', 'TIME', CHAR_TO_CLOB('This is a...'
+Function t_clob_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_clob_time' does not exist.
+
+===================================================
+    
+null     
+
+
+t_JSON_TIME. This scenario is a failure.
+===================================================
+Error:-494
+Semantic: before '  ) RETURN TIME IS
+VAR JSON  ;
+begin
+VAR := param_value ;
+dbms...'
+Unsupported argument type 'json' of the stored procedure create or replace function [dba.t_JSON_TIME](variables_type ...
+
+===================================================
+Error:-494
+Semantic: before ' ,
+typeof( t_JSON_TIME('JSON', 'TIME', '{"a":1}' ) ) ; '
+Function t_json_time is undefined or given wrong number of parameter. select 
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.t_json_time' does not exist.
+
+===================================================
+0
+

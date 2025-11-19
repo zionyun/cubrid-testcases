@@ -51,6 +51,7 @@ col
 30     
 
 ===================================================
+<<<<<<< HEAD
     
 case 6. HAVING outer col + AND condition     
 
@@ -126,6 +127,8 @@ col
 30     
 
 ===================================================
+=======
+>>>>>>> f939caaa80b5b0426469ca247042b8da1c598992
 0
 ===================================================
 0
@@ -139,7 +142,11 @@ col
 6
 ===================================================
     
+<<<<<<< HEAD
 case 15. HAVING compares c.num     
+=======
+case 6. HAVING compares c.num     
+>>>>>>> f939caaa80b5b0426469ca247042b8da1c598992
 
 ===================================================
 id    num    
@@ -147,7 +154,11 @@ id    num
 
 ===================================================
     
+<<<<<<< HEAD
 case 16. HAVING compares with numeric expression     
+=======
+case 7. HAVING compares with numeric expression     
+>>>>>>> f939caaa80b5b0426469ca247042b8da1c598992
 
 ===================================================
 id    num    
@@ -155,7 +166,11 @@ id    num
 
 ===================================================
     
+<<<<<<< HEAD
 case 17. Control query for validation (no main column in HAVING)     
+=======
+case 8. Control query for validation (no main column in HAVING)     
+>>>>>>> f939caaa80b5b0426469ca247042b8da1c598992
 
 ===================================================
 (select 1 from tbl_d d where d.id=c.id group by d.id having max(d.num)<c.num)    
@@ -163,6 +178,7 @@ case 17. Control query for validation (no main column in HAVING)
 null     
 
 ===================================================
+<<<<<<< HEAD
     
 case 18. WHERE + HAVING both reference outer col     
 
@@ -172,6 +188,8 @@ id
 2     
 
 ===================================================
+=======
+>>>>>>> f939caaa80b5b0426469ca247042b8da1c598992
 0
 ===================================================
 0

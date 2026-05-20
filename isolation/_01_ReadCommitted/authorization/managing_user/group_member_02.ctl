@@ -47,7 +47,7 @@ MC: wait until C2 ready;
 
 C1: login as 'company';
 C1: CREATE TABLE t1(id int primary key, name VARCHAR(10));
-C1: select name from db_user order by 1;
+C1: select name from _db_user order by 1;
 C1: show tables;
 MC: wait until C1 ready;
 C2: login as 'engineering';
@@ -55,12 +55,12 @@ C2: CREATE TABLE t1(id int primary key, name VARCHAR(10));
 /*MC: wait until C2 blocked;*/
 C1: COMMIT;
 MC: wait until C2 ready;
-C2: select name from db_user order by 1;
+C2: select name from _db_user order by 1;
 C2: show tables;
 MC: wait until C2 ready;
 C1: COMMIT;
 MC: wait until C1 ready;
-C2: select name from db_user order by 1;
+C2: select name from _db_user order by 1;
 C2: show tables;
 C2: COMMIT;
 MC: wait until C2 ready;

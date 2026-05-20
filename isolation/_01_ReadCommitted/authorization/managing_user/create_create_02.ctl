@@ -37,23 +37,23 @@ C3: set transaction lock timeout INFINITE;
 C3: set transaction isolation level read committed;
 
 /* preparation */
-C3: select name from db_user order by 1;
+C3: select name from _db_user order by 1;
 MC: wait until C3 ready;
 C1: CREATE USER Fred;
 MC: wait until C1 ready;
 C2: CREATE USER Fred1;
 MC: wait until C2 ready;
-C1: select name from db_user order by 1;
+C1: select name from _db_user order by 1;
 MC: wait until C1 ready;
-C2: select name from db_user order by 1;
+C2: select name from _db_user order by 1;
 MC: wait until C2 ready;
-C2: select name from db_user order by 1;
+C2: select name from _db_user order by 1;
 C2: COMMIT;
 MC: wait until C2 ready;
 C1: COMMIT;
 MC: wait until C1 ready;
 C3: COMMIT;
-C3: select name from db_user order by 1;
+C3: select name from _db_user order by 1;
 C3: COMMIT;
 MC: wait until C3 ready;
 C1: login as 'dba';

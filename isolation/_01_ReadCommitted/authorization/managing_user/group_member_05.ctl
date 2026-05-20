@@ -52,7 +52,7 @@ C1: set transaction isolation level read committed;
 C1: commit;
 MC: wait until C1 ready;
 C1: CREATE TABLE t1(id int primary key, name VARCHAR(10));
-C1: select name from db_user order by 1;
+C1: select name from _db_user order by 1;
 C1: show tables;
 MC: wait until C1 ready;
 C2: login as 'engineering';
